@@ -28,9 +28,10 @@ Frequências disponíveis (`scaling_available_frequencies`):
 | Campo | Valor | Status | Fonte |
 | ----- | ----- | ------ | ----- |
 | RAM total visível ao kernel | ~1.8 GB (`1846936 kB`) | **verificado** | `/proc/meminfo` |
-| RAM física instalada | 2.0 GB (LPDDR4x) | catálogo/bootloader | — |
-| Regiões reservadas | ver `04-memory-map.md` | pendente | — |
-| Base física da DRAM | `0x40000000` (padrão MT6771) | pendente confirmação DTB | DTB stock |
+| RAM física instalada | 2.0 GB (Samsung LPDDR4x DIE=16Gb) | **verificado** | `fastboot getvar ram` |
+| Regiões reservadas | Mapeadas e detalhadas em `04-memory-map.md` | **verificado** | `research/iomem-stock.txt` e `kernel.dtb` |
+| Base física da DRAM | `0x40000000` | **verificado** | `research/iomem-stock.txt` (System RAM: 0x40000000-0x543fffff) |
+| Ponto de entrada do kernel | `0x40008000` | **verificado** | `dumps/firmware/boot.img` v2 header |
 
 ## 3. Interrupções e timers
 
