@@ -1,0 +1,56 @@
+# Configuração de build do alvo `lima_32`.
+#
+# TEMPLATE. Nada aqui está habilitado e nenhum valor foi validado no hardware.
+#
+# Propósito: registrar, num só lugar, as decisões de build específicas do alvo
+# (loader na Fase 1, kernel nas fases seguintes). Formato no estilo Kconfig para
+# ser consumido pelo build quando ele existir.
+#
+# PROIBIDO: copiar valores de MT6768, Snapdragon ou de outro aparelho.
+# Cada linha habilitada precisa de um comentário com a fonte da decisão.
+
+# ---------------------------------------------------------------------------
+# Plataforma
+# ---------------------------------------------------------------------------
+# CONFIG_SOC="mt6771"          # NÃO DEFINIDO: MT6771 vs MT6765 em aberto
+# CONFIG_SOC_REVISION=""       # obter do BROM/preloader (leitura)
+# CONFIG_BOARD="lima_32"
+
+# ---------------------------------------------------------------------------
+# Boot
+# ---------------------------------------------------------------------------
+# CONFIG_BOOT_ENTRY_POINT=     # depende de onde o loader é carregado
+# CONFIG_LOAD_ADDRESS=         # depende do caminho de carga escolhido
+# CONFIG_STACK_SIZE=
+# CONFIG_USE_PSCI=             # verificar se o firmware expõe PSCI
+
+# ---------------------------------------------------------------------------
+# Console / log (decisão bloqueante da Fase 1)
+# ---------------------------------------------------------------------------
+# CONFIG_CONSOLE_UART=
+# CONFIG_CONSOLE_FRAMEBUFFER=
+# CONFIG_CONSOLE_MEMORY_BUFFER=   # buffer persistente entre resets
+# CONFIG_LOG_LEVEL=
+
+# ---------------------------------------------------------------------------
+# CPU / MMU
+# ---------------------------------------------------------------------------
+# CONFIG_CPU_MAX_CORES=8       # provável; confirmar topologia
+# CONFIG_PAGE_SIZE=4096        # decidir; XNU arm64 suporta 4K/16K
+# CONFIG_SMP=
+# CONFIG_CACHE_L2_ENABLE=
+
+# ---------------------------------------------------------------------------
+# Interrupções e tempo
+# ---------------------------------------------------------------------------
+# CONFIG_GIC_VERSION=          # 2 (GIC-400) ou 3
+# CONFIG_GIC_DIST_BASE=        # do DTB
+# CONFIG_ARCH_TIMER=
+# CONFIG_WATCHDOG_DISABLE=
+
+# ---------------------------------------------------------------------------
+# Debug
+# ---------------------------------------------------------------------------
+# CONFIG_DEBUG_EARLY_PRINT=
+# CONFIG_DEBUG_ASSERT=
+# CONFIG_DEBUG_MEMORY_MAP_DUMP=

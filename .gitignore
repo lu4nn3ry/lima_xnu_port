@@ -1,0 +1,55 @@
+# --- Firmware, dumps e backups -------------------------------------------------
+# Nunca versionar: podem conter dados exclusivos do aparelho
+# (IMEI, calibração de RF, chaves, certificados).
+dumps/
+backups/
+firmware/
+*.img
+*.bin
+*.mbn
+*.elf
+*.mtk
+*.scatter
+scatter*.txt
+rawprogram*.xml
+patch*.xml
+
+# --- Logs e capturas ----------------------------------------------------------
+*.log
+logs/
+*.dmesg
+*.txt.gz
+pstore/
+
+# --- Build --------------------------------------------------------------------
+build/
+out/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dSYM/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# --- Toolchains e dependências -------------------------------------------------
+toolchain/
+toolchains/
+external/
+.cache/
+
+# --- Editores / SO ------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Ambiente -----------------------------------------------------------------
+.env
+venv/
+.venv/
+__pycache__/

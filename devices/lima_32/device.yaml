@@ -1,0 +1,95 @@
+# Descrição do alvo `lima_32`.
+#
+# REGRAS DESTE ARQUIVO
+#   1. Todo campo tem `status`: verified | public | conflict | unknown
+#   2. Todo campo `verified` tem `source` com o comando e a saída resumida.
+#   3. Nada é copiado de outro dispositivo.
+#   4. `null` significa "não sabemos", não "não existe".
+
+schema: 1
+updated: null          # data da última verificação (AAAA-MM-DD)
+
+identity:
+  vendor: Motorola
+  marketing_name: Moto G8 Play
+  model_code:
+    value: XT2015-2
+    status: public
+    source: null
+  codename:
+    value: lima_32          # usado pelo projeto; confirmar string do Android
+    status: unknown
+    source: null            # ro.product.device / ro.build.product
+  region: null
+  launch_android: "9"
+  build_fingerprint:
+    value: null
+    status: unknown
+    source: null            # ro.build.fingerprint
+
+soc:
+  vendor: MediaTek
+  name:
+    value: null             # MT6771 (Helio P70) OU MT6765 (Helio P35)
+    status: conflict
+    source: null
+    note: >
+      Fontes públicas divergem. Confirmar por ro.board.platform, DT compatible
+      e MIDR das CPUs. Não assumir.
+  platform_string: null     # ro.board.platform
+  cpu_topology: null        # ex.: 4xA73 + 4xA53
+  gpu: null
+
+memory:
+  ram_bytes:
+    value: null             # ~2 GiB relatado
+    status: public
+    source: null
+  dram_base: null
+  reserved_regions_known: false
+
+storage:
+  type: null                # emmc | ufs
+  version: null
+  size_bytes: null
+  gpt_known: false
+  slots: null               # a_only | a_b
+
+display:
+  width:
+    value: null             # 720
+    status: unknown
+  height:
+    value: null             # 1520 ou 1600 — CONFLITANTE
+    status: conflict
+  panel_model: null
+  dsi_controller: null
+  framebuffer_left_by_bootloader: null
+
+input:
+  touch_controller: null
+  touch_bus: null
+  touch_address: null
+  touch_irq_gpio: null
+
+logging:
+  uart_available: null
+  pstore_available: null
+  chosen_channel: null
+
+bootloader:
+  unlocked:
+    value: null
+    status: unknown
+    source: null            # fastboot getvar unlocked
+  verified_boot_state: null # ro.boot.verifiedbootstate
+  avb_enforcing: null
+  fastboot_boot_unsigned: null
+
+phase:
+  current: 0
+  writes_performed_on_device: false
+  backups:
+    taken: false
+    verified: false
+    locations: []
