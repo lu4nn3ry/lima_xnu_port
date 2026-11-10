@@ -27,14 +27,14 @@ recomendada por guias de portabilidade de XNU: código próprio → logs → har
 
 ## Critérios de sucesso por fase
 
-| Fase | Critério objetivo de saída |
-| ---- | -------------------------- |
-| 0 | Inventário de hardware e cadeia de boot documentados, com fonte para cada afirmação, **sem ter escrito nada no aparelho**. |
-| 1 | Código próprio executa no aparelho e produz uma mensagem recuperável após reset. |
-| 2 | Kernel próprio inicializa CPU, MMU, GIC e timer e imprime um relatório de hardware. |
-| 3 | Núcleo XNU adaptado imprime `kprintf` na saída escolhida. |
-| 4 | Pelo menos um periférico externo funcionando (display é o candidato natural). |
-| 5 | Decisão documentada sobre viabilidade de userspace. |
+| Fase | Critério objetivo de saída | Status |
+| ---- | -------------------------- | :---: |
+| **0** | Inventário de hardware e cadeia de boot documentados, com fonte para cada afirmação, backup completo de 64 partições com SHA-256 verificado, DTB decompilado e DRAM/GIC/UART/PMIC catalogados. | **Concluída** |
+| **1** | Código próprio executa no aparelho e produz uma mensagem recuperável após reset (via `ramoops` / `pstore` em `0x54410000`). | **Em andamento** |
+| **2** | Kernel próprio inicializa CPU, MMU, GIC e timer e imprime um relatório de hardware (framebuffer em `0x7d4f0000` / UART). | Planejada |
+| **3** | Núcleo XNU adaptado imprime `kprintf` na saída escolhida. | Planejada |
+| **4** | Pelo menos um periférico externo funcionando (display é o candidato natural). | Planejada |
+| **5** | Decisão documentada sobre viabilidade de userspace. | Planejada |
 
 ## Fora de escopo (permanente)
 

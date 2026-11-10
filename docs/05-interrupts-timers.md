@@ -7,59 +7,41 @@ descobrir e por quê.
 
 ## 1. GIC (Generic Interrupt Controller)
 
-O que importa:
+| Item | Valor Verificado | Fonte |
+| ---- | ---------------- | ----- |
+| Versão | **GICv3** | `adb shell cat /proc/interrupts` (`GICv3 29 Level arch_timer`) |
+| Nó no Devicetree | `gic@1023a000` / `interrupt-controller@0c000000` | `/sys/firmware/devicetree/base` |
+| Polarizador de IRQ | `intpol-controller@0c530620` | `/sys/firmware/devicetree/base` |
+| Tradução MediaTek | `MT_SYSIRQ` (linhas do SoC mapeadas para GIC SPIs) | `/proc/interrupts` |
 
-| Item | Por quê |
-| ---- | ------- |
-| Versão (v2, v3, v4) | modelo de programação e registradores completamente diferentes |
-| Base do distribuidor | `GICD` |
-| Base do CPU interface | `GICC` (v2) ou redefinida em `GICR`/system registers (v3) |
-| Número de linhas (SPIs) | tamanho da tabela de IRQ |
-| Estrutura de afinidade (v3) | um `GICR` por CPU, endereço derivado |
-| Quem inicializa antes de nós | LK/preloader pode deixar o GIC já configurado — ou não |
+## 2. Timers e Watchdog
 
-Coleta indireta:
+| Timer | Papel / Configuração | IRQ | Fonte |
+| ----- | -------------------- | --- | ----- |
+| ARM Arch Timer | `CNTPCT_EL0` / `CNTVCT_EL0` (PPIs) | IRQ 29, 30 (`GICv3 Level`) | `/proc/interrupts` |
+| MediaTek APXGPT | `apxgpt@10008000` (`mt-gpt`) | `MT_SYSIRQ 176 Level` | `/proc/interrupts` & DT |
+| System Timer | `sys_timer@10017000` | devicetree | `/sys/firmware/devicetree/base` |
+| Watchdog | `toprgu@10007000` (`mt_wdt`) | `MT_SYSIRQ 142 Edge` | `/proc/interrupts` & DT |
 
-```sh
-adb shell 'cat /proc/interrupts | head -40'
-adb shell 'dmesg | grep -i -E "gic|irqchip|interrupt"' | head -40
-# DTB:
-#   /interrupt-controller@...  (compatible: arm,gic-400 / arm,gic-v3)
-```
+## 3. Interrupções de periféricos (Mapeamento Real)
 
-No DTB, o `compatible` do nó do controlador resolve a versão. Para MT6771 a
-suspeita é GIC-400 (v2) ou GICv3 — **não assumir**; os dois aparecem em
-plataformas ARM64 dessa geração.
-
-Ponto de atenção MediaTek: além do GIC, existe um **`mtk,sysirq`** (tradução de
-IRQ do SoC para linhas do GIC). Se os drivers de periférico usarem números de
-IRQ "do SoC", o mapa precisa dessa tradução.
-
-## 2. Timers
-
-| Timer | Papel |
-| ----- | ----- |
-| `CNTPCT_EL0` / `CNTVCT_EL0` | contador arquitetural, sempre presente em ARMv8 |
-| `CNTP_*` / `CNTV_*` | comparadores; base do tick do kernel |
-| `mtk,timer` (SoC) | timer proprietário, usado por algumas funções MediaTek |
-| Watchdog | reset por timeout — perigoso durante bring-up |
-
-Requisitos mínimos para a Fase 2:
-
-- [ ] Frequência do contador (`CNTFRQ_EL0`) lida corretamente
-- [ ] Tick periódico via `CNTP` funcionando
-- [ ] Watchdog desarmado/renovado (ou identificado e evitado)
-- [ ] Origem de tempo consistente com a UART (para medir delays)
-
-## 3. Interrupções de periféricos que interessam
-
-| Periférico | IRQ | Status |
-| ---------- | --- | ------ |
-| UART (se acessível) | — | pendente |
-| Display / DSI | — | pendente |
-| eMMC / SDHCI | — | pendente |
-| Touch (GPIO) | — | pendente |
-| USB | — | pendente |
+| Periférico | Linha de IRQ | Controlador Pai | Status |
+| ---------- | ------------ | ---------------- | ------ |
+| UART0 (`ttyS0`) | `MT_SYSIRQ 91` | `MT_SYSIRQ` -> GICv3 | **verificado** |
+| Display Mutex | `MT_SYSIRQ 217` | `MT_SYSIRQ` | **verificado** |
+| Display OVL0 / OVL0_2L | `MT_SYSIRQ 225, 226` | `MT_SYSIRQ` | **verificado** |
+| Display RDMA0 | `MT_SYSIRQ 228` | `MT_SYSIRQ` | **verificado** |
+| Display CCORR0 | `MT_SYSIRQ 232` | `MT_SYSIRQ` | **verificado** |
+| Display DSI0 | `MT_SYSIRQ 236` | `MT_SYSIRQ` | **verificado** |
+| eMMC (`msdc@11230000`) | `MT_SYSIRQ 77` | `MT_SYSIRQ` | **verificado** |
+| SD Card (`msdc@11240000`) | `MT_SYSIRQ 78` | `MT_SYSIRQ` | **verificado** |
+| Touchscreen (`ilitek`) | `mt-eint 6 Edge` | `mt-eint` (GPIO EINT) | **verificado** |
+| Fingerprint (`goodix`) | `mt-eint 11 Edge` | `mt-eint` | **verificado** |
+| PMIC MT6358 | `mt-eint 182 Level` | `mt-eint` | **verificado** |
+| Tecla Power (`pwrkey`) | `mt6358-irq 48, 50` | `mt6358-irq` | **verificado** |
+| Teclado Físico (`mtk-kpd`) | `MT_SYSIRQ 186 Edge` | `MT_SYSIRQ` | **verificado** |
+| USB (`musb-hdrc`) | `MT_SYSIRQ 72, 73` | `MT_SYSIRQ` | **verificado** |
+| GPU Mali-G72 | `MT_SYSIRQ 278, 279, 280` | `MT_SYSIRQ` | **verificado** |
 
 ## 4. Ordem de habilitação recomendada
 

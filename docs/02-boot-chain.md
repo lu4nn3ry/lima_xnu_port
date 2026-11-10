@@ -63,9 +63,8 @@ Detalhes que mudam por geração e por OEM e que **precisam** ser verificados:
 
 ## 4. Estratégias candidatas para a Fase 1
 
-**Estado conhecido:** bootloader desbloqueado (relato do usuário). Isso torna a
-opção 2 viável em princípio — mas "desbloqueado" não implica "aceita imagem não
-assinada"; AVB e a política de verificação do LK ainda precisam ser confirmadas.
+**Estado conhecido:** bootloader desbloqueado (**verificado via `fastboot getvar securestate` → `flashing_unlocked`**).
+Isso torna a opção 2 viável em princípio — mas "desbloqueado" não implica automaticamente "aceita imagem não assinada"; AVB e a política de verificação do LK ainda serão validados.
 
 Ordenadas da menos para a mais invasiva:
 
@@ -73,17 +72,18 @@ Ordenadas da menos para a mais invasiva:
    recupera. Melhor cenário.
 2. **`fastboot boot <img>`** com imagem própria — nada gravado de forma
    permanente; falha = volta ao normal.
-3. **Substituir `boot` em slot inativo** — reversível, mas já é escrita.
-4. **Substituir `boot` no slot ativo** — só com backup verificado e caminho de
+3. **Substituir `boot` em slot inativo (`boot_b`)** — reversível via `fastboot set_active a`, mas já é escrita.
+4. **Substituir `boot` no slot ativo (`boot_a`)** — só com backup verificado e caminho de
    recuperação testado.
 
 Nenhuma das opções 3 e 4 será considerada sem que `09-safety-and-backups.md`
 esteja completo e os hashes conferidos.
 
-## 5. Perguntas em aberto
+## 5. Respostas obtidas e perguntas em aberto
 
-- [ ] O Android deste aparelho é A/B?
-- [ ] O `boot.img` carrega DTB embutido ou há `dtbo` separado?
+- [x] **O Android deste aparelho é A/B?** Sim, verificado (`slot-count: 2`, `current-slot: a`, partições `_a` e `_b` em `/dev/block/by-name`).
+- [x] **O `boot.img` carrega DTB embutido ou há `dtbo` separado?** Existem partições dedicadas: `boot_a/b`, `dtbo_a/b` e `dtb_a/b`.
+- [x] **O bootloader está desbloqueado?** Sim, verificado (`flashing_unlocked`).
 - [ ] O bootloader valida `boot` com AVB em modo enforcing?
 - [ ] `fastboot boot` é aceito com imagem não assinada?
 - [ ] Qual a versão de preloader/LK e se há histórico de compatibilidade?

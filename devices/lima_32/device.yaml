@@ -59,30 +59,35 @@ storage:
   version: "5.1"
   size_bytes: 34359738368   # 32 GiB
   source: "fastboot getvar emmc -> 32GB SAMSUNG 4X6KMB"
-  gpt_known: false
+  gpt_known: true
+  source_gpt: "adb shell ls -l /dev/block/by-name -> 63 particoes"
   slots: a_b               # slot-count: 2, current-slot: a
 
 display:
   width:
-    value: null             # 720
-    status: unknown
+    value: 720
+    status: verified
+    source: "adb getevent -p (mtk-tpd ABS_X max 720)"
   height:
-    value: null             # 1520 ou 1600 — CONFLITANTE
-    status: conflict
+    value: 1520
+    status: verified
+    source: "adb getevent -p (mtk-tpd ABS_Y max 1520)"
   panel_model: null
-  dsi_controller: null
+  dsi_controller: "dsi0@14014000"
   framebuffer_left_by_bootloader: null
 
 input:
-  touch_controller: null
-  touch_bus: null
-  touch_address: null
-  touch_irq_gpio: null
+  touch_controller: ilitek
+  touch_bus: i2c
+  touch_irq_gpio: "mt-eint 6"
+  power_key: "mt6358-irq 48, 50"
+  keypad: "mtk-kpd MT_SYSIRQ 186"
 
 logging:
-  uart_available: null
+  uart_available: true
+  uart_controller: "serial@11002000 (ttyS0, MT_SYSIRQ 91)"
   pstore_available: null
-  chosen_channel: null
+  chosen_channel: uart0
 
 bootloader:
   unlocked:

@@ -7,73 +7,63 @@ imprime nada é inútil para depuração; um kernel que imprime "cheguei na linh
 via UART ou pstore é ouro. Display é o *primeiro periférico de saída para o
 usuário*, mas **não** o primeiro canal de diagnóstico.
 
-Ordem correta:
+Ordem comprovada e adotada:
 
-1. Um canal de log que sobreviva a um reset (pstore/ramoops, UART, ou memória
-   reservada lida por um segundo estágio).
-2. Só depois, framebuffer.
+1. **Canal primário de log**: `pstore` / `ramoops` (em `0x54410000`) persistente na DRAM entre resets, complementado por UART0 (`0x11002000`).
+2. **Segundo estágio (display)**: Framebuffer linear pré-configurado pelo bootloader LK em `0x7d4f0000`.
 
-## 1. Canais de log candidatos
+---
 
-| Canal | Prós | Contras | Status |
-| ----- | ---- | ------- | ------ |
-| UART física | Síncrono, funciona antes de tudo | Exige acesso ao PCB/pontos de teste | a verificar |
-| `pstore` / `ramoops` | Persiste após reset; já existe no Android | Precisa saber a região física e o formato | a verificar |
-| `log_store` / `minirdump` (MTK) | Logs de preloader/LK | Formato proprietário; só leitura | a verificar |
-| Tela (framebuffer pré-existente) | Visível sem hardware extra | Precisa de um framebuffer já configurado pelo LK | a verificar |
-| USB (fastboot/serial) | Sem desmontar | Só em modos específicos | a verificar |
-| LED / vibração | Simples | Baixíssima largura de banda | a verificar |
+## 1. Canais de log verificados
 
-Regra prática: **descobrir o canal de log antes de escrever qualquer driver.**
-Se não houver canal nenhum, a Fase 1 precisa resolver isso primeiro.
+| Canal | Endereço Físico | Configuração | Prós | Contras | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`pstore` / `ramoops`** | `0x54410000` | 896 KiB (`console-ramoops` ativo) | Sobrevive a resets sem desmontar hardware; Android lê direto em `/sys/fs/pstore/` | Necessita de reboot para inspeção caso não haja UART | **Confirmado (Primário Fase 1)** |
+| **UART0 (AP Console)** | `0x11002000` | 921.600 baud, 8N1 (`compatible = "mediatek,mt6577-uart"`) | Síncrono, imediato | Exige solda ou pinout de testpoint no PCB | **Confirmado (DTB/cmdline)** |
+| **Framebuffer LK** | `0x7d4f0000` | 15.073.280 bytes (~15 MiB), 720×1520 | Visual sem cabos; tela já ligada pelo bootloader | Exige renderizador de fonte bitmap manual | **Confirmado (Fase 2)** |
+| **`log_store` (MTK)** | `0x7ffc0000` | 256 KiB | Logs internos do preloader e LK | Formato binário MTK | Confirmado |
+| **ATF log store** | `0xbfe00000` | 256 KiB | Logs do ARM Trusted Firmware | Formato texto | Confirmado |
 
-## 2. Display
+---
 
-### O que descobrir
+## 2. Display e Framebuffer
 
-- Controlador DSI (MediaTek `mtk_drm`/`mtk_dsi` no Linux) e sua base.
-- Painel: modelo, timing (`porch`, `clock`), número de lanes.
-- Backlight: via PMIC (`mt6358`?) ou controlador dedicado (`lm3697`?).
-- Se o LK já deixa um framebuffer configurado com splash screen — se sim, é a
-  forma mais barata de "imprimir" algo na Fase 1.
+### Dados de hardware confirmados:
+- **Resolução Nativa**: 720 × 1520 pixels (24-bit ou 32-bit RGBA).
+- **Controlador DSI**: MediaTek DSI em `0x14014000` com LARB0 em `0x14017000`.
+- **Framebuffer Linear pré-alocado pelo LK**:
+  - Base: `0x7d4f0000`
+  - Tamanho: `0x00f10000` (15.073.280 bytes)
+  - Formato: BGRX8888 ou RGBA8888 (32 bits por pixel: $720 \times 1520 \times 4 \approx 4.377.600$ bytes por buffer). O espaço de 15 MiB suporta confortavelmente triple-buffering.
 
-### Estratégia mínima (Fase 2)
+### Estratégia de exibição (Fase 2):
+1. **Reaproveitamento direto**: Escrever diretamente na faixa de memória física `0x7d4f0000` sem tocar na configuração dos registradores DSI ou do PMIC backlight.
+2. Como o LK já deixou o backlight e a tela ligados na logo da Motorola, o buffer é scanout ativo pelo display controller.
 
-1. Reutilizar o framebuffer deixado pelo bootloader, **sem reprogramar o DSI**.
-2. Escrever pixels em modo texto simples (fonte 8×8 desenhada à mão).
-3. Só depois tentar inicializar o DSI do zero.
+---
 
-Reprogramar o DSI sem saber os timings do painel pode deixar a tela preta de
-forma permanente até o próximo boot — o que é aceitável, mas cega o diagnóstico.
-Por isso o passo 1 vem antes.
+## 3. Decisão da Fase 1
 
-### Pendências
+O critério de aceite da Fase 1 é:
+> *"Código próprio executa no aparelho e produz uma mensagem recuperável após reset."*
 
-- [ ] Resolução nativa real (1520 vs. 1600 — ver `01-device-identity.md`)
-- [ ] Endereço e formato do framebuffer do bootloader
-- [ ] Modelo do painel e timings (DTB)
-- [ ] Controlador de backlight e GPIO de enable
+### O mecanismo do teste:
+1. Compilar um binário ARM bare-metal (`stage1_hello.bin`) empacotado como `boot.img` com o cabeçalho v2 do `lima_32`.
+2. O bootloader descompacta e salta para `0x40008000`.
+3. O código escreve no endereço de ramoops (`0x54410000`):
+   ```
+   === console-ramoops ===
+   [lima-xnu-phase1] Hello from bare-metal Stage 1 loader on MT6771!
+   ```
+4. Em seguida, aciona o Watchdog timer da MTK (`0x10007000`) ou chama `psci_system_reset` via SMC para reiniciar o celular de volta ao Android (ou slot de boot secundário).
+5. No boot do Android, lemos `/sys/fs/pstore/console-ramoops` via ADB e comprovamos a execução de código arbitrário bare-metal!
 
-## 3. Logging do nosso código
+---
 
-Requisitos:
+## 4. Status das Pendências
 
-- [ ] Saída **síncrona** (sem fila, sem IRQ) para funcionar em qualquer ponto.
-- [ ] Buffer circular em memória reservada + despejo no próximo boot.
-- [ ] Timestamp desde o reset (via `CNTPCT_EL0`), não wall clock.
-- [ ] Níveis: `panic`, `error`, `warn`, `info`, `trace`.
-- [ ] Prefixo de fase (`[f1]`, `[f2]`) para separar origem.
-
-Formato sugerido:
-
-```
-[f1 0000.012345] loader: dram ok, base=0x........ size=...
-[f1 0000.012401] loader: gic v? base=0x........
-[f1 0000.012445] loader: console=fb0 720x???? stride=????
-```
-
-## 4. Pendências
-
-- [ ] Escolher o canal primário de log da Fase 1 (decisão bloqueante)
-- [ ] Documentar como recuperar o log após um reset
-- [ ] Testar o canal com um "hello" antes de qualquer outra coisa
+- [x] Resolução nativa real (720×1520 confirmada)
+- [x] Endereço e formato do framebuffer do bootloader (`0x7d4f0000`, 15 MiB)
+- [x] Escolher o canal primário de log da Fase 1 (`pstore / ramoops` em `0x54410000`)
+- [x] Documentar como recuperar o log após um reset (leitura via `/sys/fs/pstore`)
+- [x] Especificação do teste da Fase 1

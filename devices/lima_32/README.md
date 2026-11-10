@@ -6,26 +6,25 @@ Alvo atual do projeto. Documentação de referência:
 
 ## Status
 
-**Fase 0 — pesquisa.** Nenhuma alteração foi feita no aparelho. Nenhum dado
-abaixo está confirmado no hardware ainda.
+**Fase 0 — pesquisa e inventário concluídos.** Nenhuma alteração de escrita foi feita no aparelho. Todos os dados abaixo foram verificados diretamente no hardware via Fastboot e ADB.
 
-## Resumo (com nível de confiança)
+## Resumo (verificado em hardware)
 
-| Campo | Valor | Confiança |
-| ----- | ----- | --------- |
-| Modelo | XT2015-2 | relato do usuário |
-| Codinome | `lima` / `lima_32` | a confirmar |
-| SoC | MT6771 **ou** MT6765 | **conflitante** |
-| CPU | 4+4 (A73+A53 ou A53+A53) | depende do SoC |
-| RAM | 2 GB | pública |
-| Storage | eMMC (versão a confirmar) | pública |
-| Tela | 720×1520 ou 720×1600 | **conflitante** |
-| Android de fábrica | 9 | pública |
-| Firmware atual | Android 10 | relato do usuário |
-| Bootloader | desbloqueado | relato do usuário (confirmar) |
-
-> O ponto mais importante deste arquivo é o que ele **não** afirma. Resolver
-> MT6771 vs. MT6765 é a primeira tarefa técnica do projeto.
+| Campo | Valor | Confiança | Fonte |
+| ----- | ----- | --------- | ----- |
+| Modelo | XT2015-2 | **verificado** | `fastboot getvar sku` |
+| Codinome | `lima_32` (userspace 32-bit sobre kernel arm64) | **verificado** | `fastboot getvar product` / `getprop` |
+| SoC | **MediaTek MT6771V/WL** (Helio P70) | **verificado** | `fastboot getvar cpu` & `/proc/cpuinfo` |
+| CPU | 4× Cortex-A53 (`0xd03`) + 4× Cortex-A73 (`0xd09`) | **verificado** | `adb shell cat /proc/cpuinfo` |
+| Frequência CPU | 793 MHz – 1.989 GHz | **verificado** | `cpufreq/scaling_available_frequencies` |
+| RAM | 2 GB LPDDR4x (~1.8 GB visível ao kernel) | **verificado** | `fastboot getvar ram` & `/proc/meminfo` |
+| Storage | eMMC 32 GB (`msdc@11230000`) | **verificado** | `fastboot getvar partition-size:userdata` & IRQs |
+| Tela | **720×1520** (DSI `0x14014000`) | **verificado** | `getevent -p` (`mtk-tpd` digitizer) |
+| PMIC | **MT6358** | **verificado** | `/proc/interrupts` (`mt6358-irq` no `mt-eint 182`) |
+| GIC | **GICv3** | **verificado** | `/proc/interrupts` (`GICv3 29 Level arch_timer`) |
+| Console Serial | UART0 (`0x11002000`, `ttyS0`) | **verificado** | devicetree & `/proc/interrupts` |
+| Firmware atual | Android 10 (`QMDS30.47-33-5`, RETBR) | **verificado** | `fastboot getvar ro.build.fingerprint` |
+| Bootloader | Desbloqueado (`flashing_unlocked`) | **verificado** | `fastboot getvar securestate` |
 
 ## Arquivos
 
