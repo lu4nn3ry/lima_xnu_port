@@ -5,6 +5,10 @@ param(
 
 $ErrorActionPreference = "Continue"
 
+try {
+    Add-Type -AssemblyName System.Net.Http -ErrorAction SilentlyContinue
+} catch {}
+
 Write-Host "=========================================="
 Write-Host "SINCRONIZADOR DE DUMPS (AGY-1 -> AGY-2)"
 Write-Host "Servidor de Origem: http://$SourceHost"
