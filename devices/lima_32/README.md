@@ -13,7 +13,7 @@ abaixo está confirmado no hardware ainda.
 
 | Campo | Valor | Confiança |
 | ----- | ----- | --------- |
-| Modelo | XT2015-2 | pública |
+| Modelo | XT2015-2 | relato do usuário |
 | Codinome | `lima` / `lima_32` | a confirmar |
 | SoC | MT6771 **ou** MT6765 | **conflitante** |
 | CPU | 4+4 (A73+A53 ou A53+A53) | depende do SoC |
@@ -21,7 +21,8 @@ abaixo está confirmado no hardware ainda.
 | Storage | eMMC (versão a confirmar) | pública |
 | Tela | 720×1520 ou 720×1600 | **conflitante** |
 | Android de fábrica | 9 | pública |
-| Bootloader | a confirmar | — |
+| Firmware atual | Android 10 | relato do usuário |
+| Bootloader | desbloqueado | relato do usuário (confirmar) |
 
 > O ponto mais importante deste arquivo é o que ele **não** afirma. Resolver
 > MT6771 vs. MT6765 é a primeira tarefa técnica do projeto.

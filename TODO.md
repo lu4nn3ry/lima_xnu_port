@@ -10,12 +10,16 @@ Objetivo: saber exatamente o que é o aparelho e como ele inicializa, **sem
 alterar nada**.
 
 ### 0.1 Identidade do aparelho
-- [ ] Confirmar modelo (`XT2015-2`?), codinome (`lima` / `lima_32`) e região
+- [x] Modelo: XT2015-2 (relato do usuário, 2026-11-10)
+- [x] Firmware atual: Android 10 (relato do usuário, 2026-11-10)
+- [x] Bootloader desbloqueado (relato do usuário, 2026-11-10)
+- [ ] Confirmar strings do build (`ro.product.model`, `ro.product.device`, `ro.build.fingerprint`)
+- [ ] Confirmar se o Android 10 veio por OTA oficial e se alterou bootloader/anti-rollback
 - [ ] Confirmar SoC real (MT6771 vs MT6765 — ver `docs/01-device-identity.md`)
 - [ ] Confirmar variante de RAM/armazenamento
 - [ ] Confirmar resolução de tela real (720×1520 vs 720×1600)
-- [ ] Registrar build Android atual (fingerprint, patch de segurança, slot ativo)
-- [ ] Registrar estado do bootloader e se o desbloqueio oficial é possível
+- [ ] Registrar patch de segurança e slot ativo
+- [ ] Confirmar `fastboot getvar unlocked` e `ro.boot.verifiedbootstate`
 
 ### 0.2 Cadeia de boot
 - [ ] Mapear: BootROM → preloader → LK → boot.img → Android

@@ -13,6 +13,8 @@ sh tools/collect-inventory.sh --fastboot # inclui fastboot getvar all
 ```
 
 Requisitos: `adb` no PATH; aparelho com depuração USB habilitada e autorizada.
+No Windows, rodar via **Git Bash ou WSL** (o `bash` nativo não está disponível
+nesta máquina).
 
 O script:
 

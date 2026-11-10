@@ -17,12 +17,19 @@ Regra: todo item tem um campo **Fonte**. Valores aceitáveis:
 | Campo | Valor | Status | Fonte |
 | ----- | ----- | ------ | ----- |
 | Marca / modelo comercial | Motorola Moto G8 Play | público | — |
-| Modelo | XT2015-2 | a verificar | `adb shell getprop ro.product.model` |
+| Modelo | XT2015-2 | **relato do usuário** (2026-11-10) | confirmar com `adb shell getprop ro.product.model` |
 | Codinome Motorola | `lima` (variante `lima_32`?) | a verificar | `ro.product.device`, `ro.build.product` |
 | Região / canal | — | a verificar | `ro.carrier`, `ro.build.region` |
-| Android de fábrica | 9 (Pie), relatado | a verificar | `ro.build.version.release` |
+| Android de fábrica | 9 (Pie), relatado | público | — |
+| Firmware atual | **Android 10** | **relato do usuário** (2026-11-10) | `ro.build.fingerprint`, `ro.build.version.release` |
+| Origem do Android 10 | oficial (OTA)? | a verificar | comparar fingerprint com firmware oficial |
 | Build atual | — | a verificar | `ro.build.fingerprint` |
 | Patch de segurança | — | a verificar | `ro.build.version.security_patch` |
+
+> Nota: um aparelho de fábrica com Android 9 que hoje roda Android 10 pode ter
+> recebido OTA de **bootloader/LK/preloader** junto com o sistema. Isso muda a
+> cadeia de boot e possivelmente o índice de anti-rollback. Registrar a versão
+> do bootloader antes de qualquer conclusão.
 
 ## 2. SoC — ponto crítico
 
@@ -111,10 +118,12 @@ improvisar.
 
 | Campo | Valor | Fonte |
 | ----- | ----- | ----- |
-| Bootloader desbloqueado | — | `fastboot getvar unlocked` |
-| `ro.boot.verifiedbootstate` | — | `adb shell getprop` |
+| Bootloader desbloqueado | **sim — relato do usuário** (2026-11-10) | confirmar com `fastboot getvar unlocked` |
+| `ro.boot.verifiedbootstate` | — (esperado `orange` se desbloqueado) | `adb shell getprop` |
+| Como foi desbloqueado | — (site oficial Motorola?) | perguntar; afeta `ro.boot.flash.locked` |
 | Slots (A/B) | — | `fastboot getvar slot-count`, `ro.boot.slot_suffix` |
 | `current-slot` | — | `fastboot getvar current-slot` |
+| Aviso de boot do bootloader | — | tela de aviso exibida ao ligar? |
 
 ## 7. Pendências deste documento
 

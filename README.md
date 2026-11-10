@@ -78,6 +78,8 @@ Detalhamento e tarefas: `TODO.md`.
 O documento `docs/01-device-identity.md` separa explicitamente:
 
 - **verificado no aparelho** (com o comando e a saída que provaram o dado);
+- **relatado pelo usuário** (informação de quem tem o aparelho, ainda sem
+  comando de confirmação);
 - **relatado em fonte pública** (link, data, confiabilidade);
 - **a verificar / conflitante**.
 

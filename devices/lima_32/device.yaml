@@ -1,7 +1,8 @@
 # Descrição do alvo `lima_32`.
 #
 # REGRAS DESTE ARQUIVO
-#   1. Todo campo tem `status`: verified | public | conflict | unknown
+#   1. Todo campo tem `status`: verified | user | public | conflict | unknown
+#      user   = relato do usuário, ainda sem confirmação por comando
 #   2. Todo campo `verified` tem `source` com o comando e a saída resumida.
 #   3. Nada é copiado de outro dispositivo.
 #   4. `null` significa "não sabemos", não "não existe".
@@ -14,14 +15,19 @@ identity:
   marketing_name: Moto G8 Play
   model_code:
     value: XT2015-2
-    status: public
-    source: null
+    status: user
+    source: relato do usuario em 2026-11-10
   codename:
     value: lima_32          # usado pelo projeto; confirmar string do Android
     status: unknown
     source: null            # ro.product.device / ro.build.product
   region: null
   launch_android: "9"
+  current_android:
+    value: "10"
+    status: user
+    source: relato do usuario em 2026-11-10
+  current_rom: null         # oficial (OTA) ou custom
   build_fingerprint:
     value: null
     status: unknown
@@ -79,12 +85,14 @@ logging:
 
 bootloader:
   unlocked:
-    value: null
-    status: unknown
-    source: null            # fastboot getvar unlocked
-  verified_boot_state: null # ro.boot.verifiedbootstate
+    value: true
+    status: user
+    source: relato do usuario em 2026-11-10; confirmar com fastboot getvar unlocked
+  unlocked_via: null        # site oficial Motorola? outro?
+  verified_boot_state: null # ro.boot.verifiedbootstate (esperado orange)
   avb_enforcing: null
   fastboot_boot_unsigned: null
+  bootloader_version: null
 
 phase:
   current: 0

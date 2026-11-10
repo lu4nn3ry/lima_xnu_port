@@ -63,6 +63,10 @@ Detalhes que mudam por geração e por OEM e que **precisam** ser verificados:
 
 ## 4. Estratégias candidatas para a Fase 1
 
+**Estado conhecido:** bootloader desbloqueado (relato do usuário). Isso torna a
+opção 2 viável em princípio — mas "desbloqueado" não implica "aceita imagem não
+assinada"; AVB e a política de verificação do LK ainda precisam ser confirmadas.
+
 Ordenadas da menos para a mais invasiva:
 
 1. **Payload em RAM via BROM** (se o chip permitir) — nada gravado; reset
