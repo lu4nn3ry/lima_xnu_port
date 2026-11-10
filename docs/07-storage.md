@@ -7,14 +7,14 @@ irreversíveis do aparelho.
 
 ## 1. O que descobrir
 
-| Item | Como | Status |
-| ---- | ---- | ------ |
-| Tipo (eMMC vs. UFS) | `ls /sys/block`, `dmesg | grep -i -E 'mmc|ufs'` | pendente |
-| Controlador | DTB (`mmc@...`, `sdhci@...`) | pendente |
-| Versão (eMMC 5.1?) | `cat /sys/block/mmcblk0/device/...` | pendente |
-| Tamanho | `cat /sys/block/mmcblk0/size` (setores de 512 B) | pendente |
-| Tabela de partições | GPT (`sgpt`/`pgpt`), scatter file | pendente |
-| Slots A/B | ver `02-boot-chain.md` | pendente |
+| Item | Como | Status | Fonte |
+| ---- | ---- | ------ | ----- |
+| Tipo (eMMC vs. UFS) | `ls /sys/block`, `dmesg \| grep -i -E 'mmc\|ufs'` | **verificado** | eMMC 5.1 (`mmcblk0`) em `dumps/dmesg-stock.txt` |
+| Controlador | DTB (`mmc@...`, `sdhci@...`) | **verificado** | MediaTek MSDC em `msdc@11230000` (eMMC) e `msdc@11240000` (SD) |
+| Versão / Modelo | `cat /sys/block/mmcblk0/device/...` | **verificado** | 32GB SAMSUNG 4X6KMB (`fastboot getvar emmc`) |
+| Tamanho | `cat /sys/block/mmcblk0/size` (setores de 512 B) | **verificado** | 34.359.738.368 bytes (32 GiB / 67.108.864 setores) |
+| Tabela de partições | GPT (`sgpt`/`pgpt`), scatter file | **verificado** | GPT com 64 partições mapeadas em `research/partitions-by-name.txt` |
+| Slots A/B | ver `02-boot-chain.md` | **verificado** | A/B Dual-Slot (`slot-count: 2`, `current-slot: a`) |
 
 ## 2. Mapa real verificado (2026-11-10)
 
