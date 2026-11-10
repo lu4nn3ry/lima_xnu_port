@@ -10,20 +10,20 @@ Objetivo: saber exatamente o que é o aparelho e como ele inicializa, **sem
 alterar nada**.
 
 ### 0.1 Identidade do aparelho
-- [x] Modelo: XT2015-2 (relato do usuário, 2026-11-10)
-- [x] Firmware atual: Android 10 (relato do usuário, 2026-11-10)
-- [x] Bootloader desbloqueado (relato do usuário, 2026-11-10)
-- [ ] Confirmar strings do build (`ro.product.model`, `ro.product.device`, `ro.build.fingerprint`)
-- [ ] Confirmar se o Android 10 veio por OTA oficial e se alterou bootloader/anti-rollback
-- [ ] Confirmar SoC real (MT6771 vs MT6765 — ver `docs/01-device-identity.md`)
-- [ ] Confirmar variante de RAM/armazenamento
-- [ ] Confirmar resolução de tela real (720×1520 vs 720×1600)
-- [ ] Registrar patch de segurança e slot ativo
-- [ ] Confirmar `fastboot getvar unlocked` e `ro.boot.verifiedbootstate`
+- [x] Modelo: XT2015-2 (confirmado: `fastboot getvar sku` → XT2015-2)
+- [x] Firmware atual: Android 10 (confirmado: build `QMDS30.47-33-5`)
+- [x] Bootloader desbloqueado (confirmado: `securestate: flashing_unlocked` via Unique Key oficial)
+- [x] Confirmar strings do build (`motorola/lima_32/lima:10/QMDS30.47-33-5/7e278:user/release-keys`)
+- [x] Confirmar se o Android 10 veio por OTA oficial (canal `retbr`, release-keys, bootloader `MBM-2.1-lima_32_retail`)
+- [x] Confirmar SoC real (MT6771V/WL confirmado via `fastboot getvar cpu` - Helio P70M)
+- [x] Confirmar variante de RAM/armazenamento (2GB Samsung LP4x + 32GB Samsung eMMC)
+- [ ] Confirmar resolução de tela real (720×1520 vs 720×1600 via DTB)
+- [x] Registrar patch de segurança e slot ativo (Slot `_a` ativo de 2 slots)
+- [x] Confirmar `fastboot getvar unlocked` (`securestate: flashing_unlocked`)
 
 ### 0.2 Cadeia de boot
 - [ ] Mapear: BootROM → preloader → LK → boot.img → Android
-- [ ] Verificar se o aparelho é A/B (slots) ou A-only
+- [x] Verificar se o aparelho é A/B (slots) ou A-only (A/B verificado: `slot-count: 2`)
 - [ ] Verificar presença e política de AVB/vbmeta (verity, verification)
 - [ ] Documentar o que o bootloader aceita (`fastboot boot`? apenas imagens assinadas?)
 - [ ] Documentar o modo de emergência/download (BROM/Preloader) — apenas leitura

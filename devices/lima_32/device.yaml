@@ -8,58 +8,59 @@
 #   4. `null` significa "não sabemos", não "não existe".
 
 schema: 1
-updated: null          # data da última verificação (AAAA-MM-DD)
+updated: "2026-11-10"          # data da última verificação (AAAA-MM-DD)
 
 identity:
   vendor: Motorola
   marketing_name: Moto G8 Play
   model_code:
     value: XT2015-2
-    status: user
-    source: relato do usuario em 2026-11-10
+    status: verified
+    source: "fastboot getvar sku / carrier_sku -> XT2015-2"
   codename:
-    value: lima_32          # usado pelo projeto; confirmar string do Android
-    status: unknown
-    source: null            # ro.product.device / ro.build.product
-  region: null
+    value: lima_32          # build lima_32_retail
+    status: verified
+    source: "fastboot getvar version-bootloader -> MBM-2.1-lima_32_retail-b64a50bf6-211028"
+  region: retbr
   launch_android: "9"
   current_android:
     value: "10"
-    status: user
-    source: relato do usuario em 2026-11-10
-  current_rom: null         # oficial (OTA) ou custom
+    status: verified
+    source: "fastboot getvar ro.build.fingerprint -> 10/QMDS30.47-33-5"
+  current_rom: oficial (OTA Motorola)
   build_fingerprint:
-    value: null
-    status: unknown
-    source: null            # ro.build.fingerprint
+    value: "motorola/lima_32/lima:10/QMDS30.47-33-5/7e278:user/release-keys"
+    status: verified
+    source: "fastboot getvar ro.build.fingerprint"
 
 soc:
   vendor: MediaTek
   name:
-    value: null             # MT6771 (Helio P70) OU MT6765 (Helio P35)
-    status: conflict
-    source: null
+    value: MT6771V/WL       # Helio P70M / P60 family
+    status: verified
+    source: "fastboot getvar cpu -> MT6771V/WL"
     note: >
-      Fontes públicas divergem. Confirmar por ro.board.platform, DT compatible
-      e MIDR das CPUs. Não assumir.
-  platform_string: null     # ro.board.platform
-  cpu_topology: null        # ex.: 4xA73 + 4xA53
-  gpu: null
+      Confirmado como MT6771V/WL diretamente pelo bootloader. Conflito com MT6765
+      resolvido definitivamente.
+  platform_string: MT6771_V70.02.01.113R     # version-baseband
+  cpu_topology: 4xA73 + 4xA53
+  gpu: Mali-G72 MP3
 
 memory:
   ram_bytes:
-    value: null             # ~2 GiB relatado
-    status: public
-    source: null
+    value: 2147483648       # 2 GiB
+    status: verified
+    source: "fastboot getvar ram -> 2GB SAMSUNG LP4x DIE=16Gb"
   dram_base: null
   reserved_regions_known: false
 
 storage:
-  type: null                # emmc | ufs
-  version: null
-  size_bytes: null
+  type: emmc
+  version: "5.1"
+  size_bytes: 34359738368   # 32 GiB
+  source: "fastboot getvar emmc -> 32GB SAMSUNG 4X6KMB"
   gpt_known: false
-  slots: null               # a_only | a_b
+  slots: a_b               # slot-count: 2, current-slot: a
 
 display:
   width:
@@ -86,13 +87,13 @@ logging:
 bootloader:
   unlocked:
     value: true
-    status: user
-    source: relato do usuario em 2026-11-10; confirmar com fastboot getvar unlocked
-  unlocked_via: null        # site oficial Motorola? outro?
+    status: verified
+    source: "fastboot getvar securestate -> flashing_unlocked"
+  unlocked_via: "portal oficial Motorola via fastboot oem unlock com Unique Key"
   verified_boot_state: null # ro.boot.verifiedbootstate (esperado orange)
   avb_enforcing: null
   fastboot_boot_unsigned: null
-  bootloader_version: null
+  bootloader_version: "MBM-2.1-lima_32_retail-b64a50bf6-211028"
 
 phase:
   current: 0

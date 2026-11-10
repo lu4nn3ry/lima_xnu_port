@@ -1,0 +1,55 @@
+(bootloader) version: 0.5
+(bootloader) version-bootloader: MBM-2.1-lima_32_retail-b64a50bf6-211028
+(bootloader) product: lima
+(bootloader) board: lima
+(bootloader) secure: yes
+(bootloader) hwrev: PVT
+(bootloader) radio: 2
+(bootloader) storage-type: eMMC
+(bootloader) emmc: 32GB SAMSUNG 4X6KMB RV=08 PV=00 FV=0000000000000003
+(bootloader) ram: 2GB SAMSUNG LP4x DIE=16Gb M5=01 M6=07 M7=01 M8=12
+(bootloader) cpu: MT6771V/WL
+(bootloader) serialno: <REDIGIDO>
+(bootloader) cid: <REDIGIDO>
+(bootloader) channelid: 0x19
+(bootloader) uid: <REDIGIDO>
+(bootloader) securestate: flashing_unlocked
+(bootloader) factory-modes: disabled
+(bootloader) iswarrantyvoid: yes
+(bootloader) max-download-size: 268435456
+(bootloader) reason: Reboot mode set to fastboot
+(bootloader) imei: <REDIGIDO>
+(bootloader) imei2: <REDIGIDO>
+(bootloader) meid: <REDIGIDO>
+(bootloader) date: 01-27-2020
+(bootloader) sku: XT2015-2
+(bootloader) carrier_sku: XT2015-2
+(bootloader) battid: SB18C55376
+(bootloader) iccid: <REDIGIDO>
+(bootloader) max-sparse-size: 268435456
+(bootloader) current-time: "Mon Dec 31 23: 9:21 UTC 2018"
+(bootloader) ro.build.fingerprint[0]: motorola/lima_32/lima:10/QMDS30.47
+(bootloader) ro.build.fingerprint[1]: -33-5/7e278:user/release-keys
+(bootloader) poweroffalarm: 0
+(bootloader) ro.build.version.mtk: alps-mp-q0.mp1.tc2sp-V1.53
+(bootloader) version-baseband: MT6771_V70.02.01.113R
+(bootloader) kernel.version[0]: Linux version 4.14.141+ (nobody@android-
+(bootloader) kernel.version[1]: build) (gcc version 4.9.x 20150123 (prer
+(bootloader) kernel.version[2]: elease) (GCC)) #1 SMP PREEMPT Thu Oct 28
+(bootloader) kernel.version[3]:  10:57:32 CDT 2021
+(bootloader) frp-state: no protection (0)
+(bootloader) ro.carrier: retbr
+(bootloader) current-slot: a
+(bootloader) running-boot-lun: 0
+(bootloader) running-slot: _a
+(bootloader) slot-successful:_a: yes
+(bootloader) slot-successful:_b: no
+(bootloader) slot-bootable:_a: yes
+(bootloader) slot-bootable:_b: no
+(bootloader) slot-retry-count:_a: 0
+(bootloader) slot-retry-count:_b: 0
+(bootloader) slot-suffixes: _a,_b
+(bootloader) slot-count: 2
+(bootloader) pcb-part-no: SB28C73270
+all: listed above
+Finished. Total time: 0.008s

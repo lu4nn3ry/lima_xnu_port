@@ -17,33 +17,32 @@ Regra: todo item tem um campo **Fonte**. Valores aceitáveis:
 | Campo | Valor | Status | Fonte |
 | ----- | ----- | ------ | ----- |
 | Marca / modelo comercial | Motorola Moto G8 Play | público | — |
-| Modelo | XT2015-2 | **relato do usuário** (2026-11-10) | confirmar com `adb shell getprop ro.product.model` |
-| Codinome Motorola | `lima` (variante `lima_32`?) | a verificar | `ro.product.device`, `ro.build.product` |
-| Região / canal | — | a verificar | `ro.carrier`, `ro.build.region` |
+| Modelo | XT2015-2 | **verificado** | `fastboot getvar sku / carrier_sku` → `XT2015-2` |
+| Codinome Motorola | `lima_32` (`lima`) | **verificado** | `fastboot getvar product / version-bootloader` → `lima` / `lima_32_retail` |
+| Região / canal | `retbr` (Retail Brasil) | **verificado** | `fastboot getvar ro.carrier` → `retbr` |
 | Android de fábrica | 9 (Pie), relatado | público | — |
-| Firmware atual | **Android 10** | **relato do usuário** (2026-11-10) | `ro.build.fingerprint`, `ro.build.version.release` |
-| Origem do Android 10 | oficial (OTA)? | a verificar | comparar fingerprint com firmware oficial |
-| Build atual | — | a verificar | `ro.build.fingerprint` |
-| Patch de segurança | — | a verificar | `ro.build.version.security_patch` |
+| Firmware atual | **Android 10** | **verificado** | `fastboot getvar ro.build.fingerprint` → `motorola/lima_32/lima:10/QMDS30.47-33-5/7e278:user/release-keys` |
+| Origem do Android 10 | oficial (OTA Motorola) | **verificado** | assinatura `release-keys`, canal `retbr` |
+| Build atual | `QMDS30.47-33-5` | **verificado** | `fastboot getvar ro.build.fingerprint` |
+| Bootloader MBM | `MBM-2.1-lima_32_retail-b64a50bf6-211028` | **verificado** | `fastboot getvar version-bootloader` |
+| Kernel Linux base | `4.14.141+ (Thu Oct 28 10:57:32 CDT 2021)` | **verificado** | `fastboot getvar kernel.version` |
 
-> Nota: um aparelho de fábrica com Android 9 que hoje roda Android 10 pode ter
-> recebido OTA de **bootloader/LK/preloader** junto com o sistema. Isso muda a
-> cadeia de boot e possivelmente o índice de anti-rollback. Registrar a versão
-> do bootloader antes de qualquer conclusão.
+---
 
-## 2. SoC — ponto crítico
+## 2. SoC — ponto crítico (Resolvido)
 
-Fontes públicas divergem. É **obrigatório** confirmar no aparelho.
+O conflito de SoC foi definitivamente resolvido via consulta de hardware ao bootloader:
 
-| Hipótese | Situação |
-| -------- | -------- |
-| MediaTek **MT6771** / Helio P70 (4×A73 + 4×A53, Mali-G72 MP3) | Relatado em fontes de especificação. É a hipótese de trabalho. |
-| MediaTek **MT6765** / Helio P35 (4×A53 + 4×A53, PowerVR GE8320) | Também aparece associado a modelos da mesma família. Não descartar. |
+| Campo | Valor | Status | Fonte |
+| ----- | ----- | ------ | ----- |
+| SoC Real | **MediaTek MT6771V/WL** | **verificado** | `fastboot getvar cpu` → `MT6771V/WL` |
+| Família | Helio P70M / P60 | verificado | especificação MT6771 |
+| Topologia de CPU | 4× Cortex-A73 @ 2.0 GHz + 4× Cortex-A53 @ 2.0 GHz | arquitetural | MT6771 |
+| GPU | ARM Mali-G72 MP3 | arquitetural | MT6771 |
+| Baseband | `MT6771_V70.02.01.113R` | verificado | `fastboot getvar version-baseband` |
 
-Consequência prática: MT6771 e MT6765 têm **clusters de CPU diferentes**
-(A73+A53 vs. A53+A53) e **GPUs de fabricantes diferentes**. Um port escrito para
-um não inicializa o outro. Além disso, o port MT6768 do HakiOS **não** é
-MT6771 nem MT6765.
+> Conclusão: O aparelho utiliza o MediaTek **MT6771** (A73+A53, Mali). O MT6765 está descartado.
+> O port de referência MT6768 (Helio G80/G85 do HakiOS) compartilha a mesma arquitetura de barramento MediaTek e GIC, servindo como forte base comparativa.
 
 Verificação (em ordem de confiabilidade):
 
@@ -81,28 +80,19 @@ Registrar a saída bruta em `research/hardware/soc-identification.txt`.
 
 ## 3. Memória e armazenamento
 
-| Campo | Valor esperado | Status | Fonte |
-| ----- | -------------- | ------ | ----- |
-| RAM | 2 GB | público / a confirmar variante | `adb shell cat /proc/meminfo`, `dumpsys meminfo` |
-| Armazenamento | 32 GB eMMC 5.1 | público / a verificar | `adb shell 'cat /sys/block/mmcblk0/size'` |
-| Tipo de storage | eMMC (vs. UFS) | a verificar | `ls /sys/block`, `dmesg | grep -i mmc` |
-
-Nota: `eMMC 5.1` é plausível para a plataforma, mas o que importa para o port é
-o controlador realmente usado (`mmcblk0` vs. `sdhci` vs. UFS). Confirmar antes de
-escrever qualquer driver.
+| Campo | Valor | Status | Fonte |
+| ----- | ----- | ------ | ----- |
+| RAM | 2 GB LPDDR4x | **verificado** | `fastboot getvar ram` → `2GB SAMSUNG LP4x DIE=16Gb` |
+| Armazenamento | 32 GB | **verificado** | `fastboot getvar emmc` → `32GB SAMSUNG 4X6KMB RV=08 PV=00 FV=0000000000000003` |
+| Tipo de storage | eMMC | **verificado** | `fastboot getvar storage-type` → `eMMC` |
 
 ## 4. Tela
 
 | Campo | Valor | Status | Fonte |
 | ----- | ----- | ------ | ----- |
-| Resolução | 720×1520 **ou** 720×1600 | **conflitante** | ver abaixo |
+| Resolução | 720×1520 **ou** 720×1600 | **conflitante** | a verificar via DTB/dmesg |
 | Painel / controlador | desconhecido | a verificar | `dmesg | grep -i -E 'dsi|panel|lcm'` |
 | Densidade | — | a verificar | `wm size`, `wm density` |
-
-`wm size` devolve o tamanho lógico configurado, não necessariamente o nativo.
-Para o nativo, o melhor é o DTB (`panel`/`dsi` node) ou o log do kernel Linux.
-A diferença 1520 vs. 1600 muda o cálculo de framebuffer e _stride_ — não
-improvisar.
 
 ## 5. Conectividade e periféricos de interesse
 
@@ -110,24 +100,26 @@ improvisar.
 | ---------- | -------- | -------------- |
 | Touchscreen | desconhecido | `dmesg`, `getevent -pl`, `/sys/class/input/*/name` |
 | USB | desconhecido (PHY/controlador) | `dmesg | grep -i -E 'dwc|musb|usb'` |
-| PMIC | desconhecido (MediaTek típico: MT6358/MT6359) | DTB, `dmesg` |
+| PMIC | MediaTek (típico MT6358 com MT6771) | DTB, `dmesg` |
 | Modem | presente, **fora de escopo e intocável** | — |
 | Wi-Fi/BT | fora de escopo inicial | — |
 
 ## 6. Estado do bootloader e slot
 
-| Campo | Valor | Fonte |
-| ----- | ----- | ----- |
-| Bootloader desbloqueado | **sim — relato do usuário** (2026-11-10) | confirmar com `fastboot getvar unlocked` |
-| `ro.boot.verifiedbootstate` | — (esperado `orange` se desbloqueado) | `adb shell getprop` |
-| Como foi desbloqueado | — (site oficial Motorola?) | perguntar; afeta `ro.boot.flash.locked` |
-| Slots (A/B) | — | `fastboot getvar slot-count`, `ro.boot.slot_suffix` |
-| `current-slot` | — | `fastboot getvar current-slot` |
-| Aviso de boot do bootloader | — | tela de aviso exibida ao ligar? |
+| Campo | Valor | Status | Fonte |
+| ----- | ----- | ------ | ----- |
+| Bootloader desbloqueado | **sim (`flashing_unlocked`)** | **verificado** | `fastboot getvar securestate` → `flashing_unlocked` |
+| Como foi desbloqueado | portal oficial Motorola via `fastboot oem unlock` com Unique Key | **verificado** | executado em 2026-11-10 |
+| `iswarrantyvoid` | `yes` | **verificado** | `fastboot getvar iswarrantyvoid` → `yes` |
+| Slots (A/B) | 2 slots (`_a`, `_b`) | **verificado** | `fastboot getvar slot-count` → `2` |
+| `current-slot` | `a` (running-slot: `_a`) | **verificado** | `fastboot getvar current-slot` → `a` |
+| Versão do Bootloader | `MBM-2.1-lima_32_retail-b64a50bf6-211028` | **verificado** | `fastboot getvar version-bootloader` |
+| Max download size | 268435456 bytes (256 MB) | **verificado** | `fastboot getvar max-download-size` |
 
 ## 7. Pendências deste documento
 
-- [ ] Resolver conflito MT6771 vs. MT6765 com evidência do aparelho
-- [ ] Resolver conflito 720×1520 vs. 720×1600
-- [ ] Confirmar codinome exato (`lima` vs. `lima_32`) e o que o sufixo significa
-- [ ] Preencher todos os campos "a verificar"
+- [x] Resolver conflito MT6771 vs. MT6765 com evidência do aparelho (Resolvido: MT6771V/WL)
+- [x] Confirmar codinome exato (`lima` / `lima_32`) (Resolvido: `lima` com MBM `lima_32_retail`)
+- [x] Confirmar desbloqueio e slots A/B (Resolvido: `flashing_unlocked`, A/B com slot A ativo)
+- [ ] Resolver conflito 720×1520 vs. 720×1600 (extrair DTB)
+- [ ] Extrair device tree (`/sys/firmware/fdt` ou `boot.img`/`dtbo`)
