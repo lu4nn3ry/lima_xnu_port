@@ -75,6 +75,11 @@ display:
   panel_model: null
   dsi_controller: "dsi0@14014000"
   framebuffer_left_by_bootloader: null
+  physical_screen_broken: true
+  note: >
+    O vidro/display físico e touch do aparelho foram danificados durante o projeto.
+    Desenvolvimento e verificação seguem 100% headless via ramoops (0x54410000),
+    UART0 (0x11002000) e ADB Wi-Fi/Fastboot. Touch físico não é necessário.
 
 input:
   touch_controller: ilitek
