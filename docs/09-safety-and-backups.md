@@ -88,6 +88,30 @@ Dumps podem conter dados pessoais (contas, mensagens, IMEI). Manter em `dumps/`
 (git-ignored), nunca anexar em issues, nunca publicar. Se precisar compartilhar
 um trecho, redigir/anonimizar.
 
+> Incidente registrado em 2026-11-10: um `fastboot getvar all` com IMEI e serial
+> foi commitado em `research/bootloader/`. O arquivo foi redigido depois, mas o
+> histórico do git ainda contém os valores. Antes de publicar este repositório,
+> reescrever o histórico (ou recriar o repo a partir de uma árvore limpa).
+
+## 6.1 O que cada modo permite copiar (verificado no `lima_32`)
+
+| Modo | Consegue copiar `userdata`/`/sdcard`? | Observação |
+| ---- | ------------------------------------ | ---------- |
+| `fastboot` | **Não** | O bootloader respondeu `Device does not support fetch command`. `fastboot` só oferece `getvar` (variáveis), não leitura de partições. |
+| `adb` (Android iniciado) | **Sim**, `/sdcard` | `adb pull /sdcard` — não precisa de root. Não inclui dados privados de apps. |
+| `adb backup` | Parcial | Depreciado; só apps com `allowBackup=true`. Não confiável como backup completo no Android 10. |
+| BROM / preloader via `mtkclient` (read) | Sim, imagem crua | Gera imagem **criptografada** (FBE) de ~dezenas de GB; sem as chaves do TEE o conteúdo não é legível. Útil para o port, não para "recuperar fotos". |
+| root (`dd` em `userdata`) | Sim | Exige instalar Magisk = escrita em partição. Proibido pelas regras deste projeto. |
+
+Conclusão prática:
+
+- **Dados pessoais** → iniciar o Android e `adb pull /sdcard`
+  (`tools/backup-sdcard.ps1`).
+- **Firmware/partições para o port** → dump read-only via BROM
+  (`boot`, `dtbo`, `vbmeta`, `lk`, `preloader`, `nvram`, `persist`), com hashes.
+- `fastboot` serve para **diagnóstico** (`getvar`), não para backup.
+
+
 ## 7. Responsabilidade
 
 Desbloquear bootloader normalmente anula a garantia e pode impedir atualizações

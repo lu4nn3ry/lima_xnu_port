@@ -18,8 +18,7 @@
 (bootloader) iswarrantyvoid: yes
 (bootloader) max-download-size: 268435456
 (bootloader) reason: Reboot mode set to fastboot
-(bootloader) imei: <REDIGIDO>
-(bootloader) imei2: <REDIGIDO>
+| linha 21-22 | IMEI redigido — dado único do aparelho, não publicar |
 (bootloader) meid: <REDIGIDO>
 (bootloader) date: 01-27-2020
 (bootloader) sku: XT2015-2

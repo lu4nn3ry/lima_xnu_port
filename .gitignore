@@ -21,6 +21,12 @@ logs/
 *.txt.gz
 pstore/
 
+# --- Saidas brutas do bootloader (podem conter serial/IMEI) -------------------
+# Versoes redigidas podem ser commitadas; saidas brutas nao.
+*getvar*raw*
+*getvar*bruto*
+dumps/
+
 # --- Build --------------------------------------------------------------------
 build/
 out/
