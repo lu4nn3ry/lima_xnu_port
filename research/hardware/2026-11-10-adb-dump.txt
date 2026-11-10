@@ -1,0 +1,347 @@
+# dump adb read-only: 2026-11-10
+
+===== particoes (by-name) =====
+
+$ ls -l /dev/block/by-name
+total 0
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 boot_a -> /dev/block/mmcblk0p37
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 boot_b -> /dev/block/mmcblk0p54
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 boot_para -> /dev/block/mmcblk0p1
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 cam_vpu1_a -> /dev/block/mmcblk0p32
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 cam_vpu1_b -> /dev/block/mmcblk0p49
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 cam_vpu2_a -> /dev/block/mmcblk0p33
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 cam_vpu2_b -> /dev/block/mmcblk0p50
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 cam_vpu3_a -> /dev/block/mmcblk0p34
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 cam_vpu3_b -> /dev/block/mmcblk0p51
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 carrier -> /dev/block/mmcblk0p9
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 cid -> /dev/block/mmcblk0p5
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 dtb_a -> /dev/block/mmcblk0p38
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 dtb_b -> /dev/block/mmcblk0p55
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 dtbo_a -> /dev/block/mmcblk0p39
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 dtbo_b -> /dev/block/mmcblk0p56
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 efuse -> /dev/block/mmcblk0p22
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 expdb -> /dev/block/mmcblk0p3
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 flashinfo -> /dev/block/mmcblk0p63
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 frp -> /dev/block/mmcblk0p4
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 hw -> /dev/block/mmcblk0p24
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 kpan -> /dev/block/mmcblk0p26
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 lk_a -> /dev/block/mmcblk0p36
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 lk_b -> /dev/block/mmcblk0p53
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 logo_a -> /dev/block/mmcblk0p35
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 logo_b -> /dev/block/mmcblk0p52
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 logs -> /dev/block/mmcblk0p6
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 md1img_a -> /dev/block/mmcblk0p28
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 md1img_b -> /dev/block/mmcblk0p45
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 metadata -> /dev/block/mmcblk0p13
+lrwxrwxrwx 1 root root 18 2018-12-31 22:20 mmcblk0 -> /dev/block/mmcblk0
+lrwxrwxrwx 1 root root 23 2018-12-31 22:20 mmcblk0boot0 -> /dev/block/mmcblk0boot0
+lrwxrwxrwx 1 root root 23 2018-12-31 22:20 mmcblk0boot1 -> /dev/block/mmcblk0boot1
+lrwxrwxrwx 1 root root 22 2018-12-31 22:20 mmcblk0rpmb -> /dev/block/mmcblk0rpmb
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 nvcfg -> /dev/block/mmcblk0p11
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 nvdata -> /dev/block/mmcblk0p12
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 nvram -> /dev/block/mmcblk0p21
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 oem_a -> /dev/block/mmcblk0p41
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 oem_b -> /dev/block/mmcblk0p58
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 otp -> /dev/block/mmcblk0p62
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 pad1 -> /dev/block/mmcblk0p10
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 pad2 -> /dev/block/mmcblk0p23
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 para -> /dev/block/mmcblk0p2
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 persist -> /dev/block/mmcblk0p17
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 prodpersist -> /dev/block/mmcblk0p18
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 proinfo -> /dev/block/mmcblk0p20
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 protect1 -> /dev/block/mmcblk0p14
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 protect2 -> /dev/block/mmcblk0p15
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 scp_a -> /dev/block/mmcblk0p30
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 scp_b -> /dev/block/mmcblk0p47
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 sec1 -> /dev/block/mmcblk0p19
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 seccfg -> /dev/block/mmcblk0p16
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 sp -> /dev/block/mmcblk0p25
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 spmfw_a -> /dev/block/mmcblk0p29
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 spmfw_b -> /dev/block/mmcblk0p46
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 sspm_a -> /dev/block/mmcblk0p31
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 sspm_b -> /dev/block/mmcblk0p48
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 system_a -> /dev/block/mmcblk0p43
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 system_b -> /dev/block/mmcblk0p60
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 tee_a -> /dev/block/mmcblk0p40
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 tee_b -> /dev/block/mmcblk0p57
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 userdata -> /dev/block/mmcblk0p61
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 utags -> /dev/block/mmcblk0p7
+lrwxrwxrwx 1 root root 20 2018-12-31 22:20 utagsBackup -> /dev/block/mmcblk0p8
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 vbmeta_a -> /dev/block/mmcblk0p27
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 vbmeta_b -> /dev/block/mmcblk0p44
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 vendor_a -> /dev/block/mmcblk0p42
+lrwxrwxrwx 1 root root 21 2018-12-31 22:20 vendor_b -> /dev/block/mmcblk0p59
+
+===== modulos vendor =====
+
+$ ls /vendor/lib/modules
+ls: /vendor/lib/modules/met.ko: Permission denied
+ls: /vendor/lib/modules/gps_drv.ko: Permission denied
+ls: /vendor/lib/modules/wlan_drv_gen3.ko: Permission denied
+ls: /vendor/lib/modules/bt_drv.ko: Permission denied
+ls: /vendor/lib/modules/fmradio_drv.ko: Permission denied
+ls: /vendor/lib/modules/fpsgo.ko: Permission denied
+ls: /vendor/lib/modules/wmt_chrdev_wifi.ko: Permission denied
+ls: /vendor/lib/modules/wmt_drv.ko: Permission denied
+
+===== vendor/etc (topo) =====
+
+$ ls /vendor/etc | head -60
+DSM.xml
+DSM_config.xml
+NOTICE.xml.gz
+a2dp_audio_policy_configuration.xml
+a2dp_in_audio_policy_configuration.xml
+agps_profiles_conf2.xml
+ap_gain.bin
+apdb
+audio_device.xml
+audio_effects.xml
+audio_em.xml
+audio_ext_spkr.conf
+audio_param
+audio_policy.conf
+audio_policy_configuration.xml
+audio_policy_configuration_bluetooth_legacy_hal.xml
+audio_policy_volumes.xml
+aurisys_config.xml
+aurisys_param
+bluetooth_audio_policy_configuration.xml
+bt_stack_level6.conf
+default_volume_tables.xml
+dual_golden.bin
+dual_golden_ov2180.bin
+ecc_list.xml
+ecc_list_OP01.xml
+ecc_list_OP02.xml
+ecc_list_OP09.xml
+ecc_list_OP12.xml
+ecc_list_OP17.xml
+ecc_list_OP18.xml
+ecc_list_OP20.xml
+factory.ini
+fs_config_dirs
+fs_config_files
+fstab.enableswap
+fstab.mt6771
+fstb.cfg
+group
+init
+ipsec
+media_codecs.xml
+media_codecs_c2.xml
+media_codecs_google_audio.xml
+media_codecs_google_telephony.xml
+media_codecs_google_video_le.xml
+media_codecs_mediatek_audio.xml
+media_codecs_mediatek_video.xml
+media_codecs_performance.xml
+media_profiles_V1_0.xml
+mixer_paths.xml
+mkshrc
+motorola
+mtk_omx_core.cfg
+partition_permission.sh
+passwd
+permissions
+power_whitelist_cfg.xml
+powercontable.xml
+powerscntbl.xml
+
+===== montagens =====
+
+$ mount | grep -E ' /(system|vendor|data|product|metadata)' 
+/dev/block/dm-1 on /vendor type ext4 (ro,seclabel,relatime)
+/dev/block/mmcblk0p61 on /data type f2fs (rw,lazytime,seclabel,nosuid,nodev,noatime,background_gc=on,discard,no_heap,user_xattr,inline_xattr,acl,inline_data,inline_dentry,nobarrier,extent_cache,mode=adaptive,active_logs=6,reserve_root=10974,resuid=0,resgid=1065,alloc_mode=default,fsync_mode=posix)
+
+$ df -h | head -20
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/block/dm-0       2.5G  2.1G  359M  86% /
+tmpfs                 901M  1.6M  899M   1% /dev
+tmpfs                 901M     0  901M   0% /mnt
+tmpfs                 901M     0  901M   0% /apex
+/dev/block/dm-1       384M  202M  174M  54% /vendor
+/dev/block/dm-2       273M   13M  254M   5% /oem
+/dev/block/mmcblk0p61  22G  1.4G   20G   7% /data
+/dev/block/mmcblk0p18 3.7M   84K  3.4M   3% /mnt/product/persist
+/dev/block/loop2      1.1M  1.1M  8.0K 100% /apex/com.android.resolv@290000000
+/dev/block/loop3      3.8M  3.8M     0 100% /apex/com.android.media@290000000
+/dev/block/loop4      836K  808K   12K  99% /apex/com.android.tzdata@292500001
+/dev/block/loop5       61M   61M     0 100% /apex/com.android.runtime@1
+/dev/block/loop6      232K   36K  192K  16% /apex/com.android.apex.cts.shim@1
+/dev/block/loop7      2.3M  2.3M     0 100% /apex/com.android.conscrypt@290000000
+/dev/block/loop8       16M   16M     0 100% /apex/com.android.media.swcodec@290000000
+/data/media            22G  1.4G   20G   7% /storage/emulated
+
+===== surfaceflinger =====
+
+$ dumpsys SurfaceFlinger --display-id 2>&1 | head -20
+Display 0 (HWC display 0): no identification data
+
+===== display =====
+
+$ dumpsys display 2>&1 | grep -i -E 'mBaseDisplayInfo|real|density' | head -10
+  DisplayDeviceInfo{"Tela integrada": uniqueId="local:0", 720 x 1520, modeId 1, defaultModeId 1, supportedModes [{id=1, width=720, height=1520, fps=60.16}], colorMode 0, supportedColorModes [0], HdrCapabilities android.view.Display$HdrCapabilities@40f16308, density 280, 268.941 x 269.986 dpi, appVsyncOff 8300000, presDeadline 9322340, cutout DisplayCutout{insets=Rect(0, 55 - 0, 0) boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(280, 0 - 440, 55), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]}}, touch INTERNAL, rotation 0, type BUILT_IN, address {port=0}, state OFF, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+      PhysicalDisplayInfo{720 x 1520, 60.16 fps, density 1.75, 268.941 x 269.986 dpi, secure true, appVsyncOffset 8300000, bufferDeadline 9322340}
+    mBaseDisplayInfo=DisplayInfo{"Tela integrada, displayId 0", uniqueId "local:0", app 720 x 1520, real 720 x 1520, largest app 720 x 1520, smallest app 720 x 1520, mode 1, defaultMode 1, modes [{id=1, width=720, height=1520, fps=60.16}], colorMode 0, supportedColorModes [0], hdrCapabilities android.view.Display$HdrCapabilities@40f16308, rotation 0, density 280 (268.941 x 269.986) dpi, layerStack 0, appVsyncOff 8300000, presDeadline 9322340, type BUILT_IN, address {port=0}, state OFF, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, removeMode 0}
+    mOverrideDisplayInfo=DisplayInfo{"Tela integrada, displayId 0", uniqueId "local:0", app 720 x 1381, real 720 x 1520, largest app 1381 x 1381, smallest app 720 x 665, mode 1, defaultMode 1, modes [{id=1, width=720, height=1520, fps=60.16}], colorMode 0, supportedColorModes [0], hdrCapabilities android.view.Display$HdrCapabilities@40f16308, rotation 0, density 280 (268.941 x 269.986) dpi, layerStack 0, appVsyncOff 8300000, presDeadline 9322340, type BUILT_IN, address {port=0}, state OFF, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, removeMode 0}
+  mScreenOnBlockStartRealTime=928304
+  mScreenOffBlockStartRealTime=1801894
+
+===== bateria =====
+
+$ dumpsys battery 2>&1 | head -20
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  MOD powered: false
+  Max charging current: 500000
+  Max charging voltage: 5000000
+  Charge counter: 431750
+  status: 2
+  health: 2
+  present: true
+  level: 11
+  scale: 100
+  voltage: 3609
+  temperature: 359
+  technology: Li-ion
+  mod level: -1
+  mod status: 1
+  mod flag: 0
+  mod type: 0
+
+===== sensores =====
+
+$ dumpsys sensorservice 2>&1 | grep -i -E 'sensor|handle' | head -25
+Sensor Device:
+Total 26 h/w sensors, 26 running:
+Sensor List:
+0x00000001) ICM40607 Accelerometer    | InvenSense acc  | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000000
+0x00000004) ICM40607 Gyroscope        | InvenSense gyro | ver: 1 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x00000000
+0x00000005) MN26005 ALS               | epl_sensor_l    | ver: 1 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000002
+0x00000008) MN58406 PROX              | epl_sensor_p    | ver: 1 | type: android.sensor.proximity(8) | perm: n/a | flags: 0x00000003
+0x00000010) UNCALI_GYRO               | MTK             | ver: 1 | type: android.sensor.gyroscope_uncalibrated(16) | perm: n/a | flags: 0x00000000
+0x00000011) SIGNIFICANT_MOTION        | MTK             | ver: 1 | type: android.sensor.significant_motion(17) | perm: n/a | flags: 0x00000005
+0x00000012) STEP_DETECTOR             | MTK             | ver: 1 | type: android.sensor.step_detector(18) | perm: android.permission.ACTIVITY_RECOGNITION | flags: 0x00000006
+0x00000013) STEP_COUNTER              | MTK             | ver: 1 | type: android.sensor.step_counter(19) | perm: android.permission.ACTIVITY_RECOGNITION | flags: 0x00000002
+0x0000001b) Disprot                   | Motorola        | ver: 1 | type: android.sensor.device_orientation(27) | perm: n/a | flags: 0x00000002
+0x00000023) UNCALI_ACC                | MTK             | ver: 1 | type: android.sensor.accelerometer_uncalibrated(35) | perm: n/a | flags: 0x00000000
+0x0000003c) FLAT                      | MTK             | ver: 1 | type:  android.sensor.flat(65596) | perm: n/a | flags: 0x00000005
+0x00000047) GYRO_TEMPERATURE          | MTK             | ver: 1 | type: android.sensor.gyro_temperature(65607) | perm: n/a | flags: 0x00000002
+0x00000049) Stowed                    | Motorola        | ver: 1 | type: com.motorola.sensor.stowed(65539) | perm: n/a | flags: 0x00000003
+0x0000004a) Flatup                    | Motorola        | ver: 1 | type: com.motorola.sensor.flat_up(65537) | perm: n/a | flags: 0x00000003
+0x0000004b) Flatdown                  | Motorola        | ver: 1 | type: com.motorola.sensor.flat_down(65538) | perm: n/a | flags: 0x00000003
+0x0000004c) Camera Activate           | Motorola        | ver: 1 | type: com.motorola.sensor.camera_activate(65540) | perm: n/a | flags: 0x00000007
+0x0000004d) ChopChop                  | Motorola        | ver: 1 | type: com.motorola.sensor.chopchop(65546) | perm: n/a | flags: 0x00000007
+0x0000004e) Motoglance                | Motorola        | ver: 1 | type: com.motorola.sensor.glance(65548) | perm: n/a | flags: 0x00000007
+0x0000004f) Ltv                       | Motorola        | ver: 1 | type: com.motorola.sensor.ltv(65556) | perm: n/a | flags: 0x00000007
+0x00000050) FTM                       | Motorola        | ver: 1 | type: com.motorola.sensor.ftm(65554) | perm: n/a | flags: 0x00000003
+0x00000051) OffBody                   | motorola        | ver: 1 | type: com.motorola.sensor.off_body(65560) | perm: n/a | flags: 0x00000007
+0x00000052) LTS                       | Motorola        | ver: 1 | type: com.motorola.sensor.lts(65553) | perm: n/a | flags: 0x00000006
+
+===== packages =====
+
+$ pm list packages 2>&1 | wc -l
+241
+
+===== cpuinfo =====
+
+$ cat /proc/cpuinfo
+processor	: 0
+Processor	: ARMv7 Processor rev 4 (v7l)
+model name	: ARMv7 Processor rev 4 (v7l)
+BogoMIPS	: 18.31
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+Processor	: ARMv7 Processor rev 4 (v7l)
+model name	: ARMv7 Processor rev 4 (v7l)
+BogoMIPS	: 18.31
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+Processor	: ARMv7 Processor rev 4 (v7l)
+model name	: ARMv7 Processor rev 4 (v7l)
+BogoMIPS	: 18.31
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+Processor	: ARMv7 Processor rev 4 (v7l)
+model name	: ARMv7 Processor rev 4 (v7l)
+BogoMIPS	: 18.31
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 4
+Processor	: ARMv7 Processor rev 2 (v7l)
+model name	: ARMv7 Processor rev 2 (v7l)
+BogoMIPS	: 43.28
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 5
+Processor	: ARMv7 Processor rev 2 (v7l)
+model name	: ARMv7 Processor rev 2 (v7l)
+BogoMIPS	: 43.28
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 6
+Processor	: ARMv7 Processor rev 2 (v7l)
+model name	: ARMv7 Processor rev 2 (v7l)
+BogoMIPS	: 43.28
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 7
+Processor	: ARMv7 Processor rev 2 (v7l)
+model name	: ARMv7 Processor rev 2 (v7l)
+BogoMIPS	: 43.28
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+Hardware	: MT6771V/WL
+Revision	: 0000
+Serial		: 0000000000000000
+
+===== versao =====
+
+$ cat /proc/version
+Linux version 4.14.141+ (nobody@android-build) (gcc version 4.9.x 20150123 (prerelease) (GCC)) #1 SMP PREEMPT Thu Oct 28 10:57:32 CDT 2021

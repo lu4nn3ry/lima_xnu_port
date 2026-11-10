@@ -29,6 +29,36 @@ Regra: todo item tem um campo **Fonte**. Valores aceitáveis:
 
 ---
 
+## 1.5 Arquitetura do SO — descoberta crítica (2026-11-10)
+
+O ROM de fábrica deste aparelho é **32-bit only**, sobre kernel arm64:
+
+```
+ro.product.name    : lima_32
+ro.build.product   : lima
+ro.product.device  : lima
+ro.product.cpu.abilist   : armeabi-v7a,armeabi
+ro.product.cpu.abilist64 : (vazio)
+uname -m (processo)      : armv7l
+/proc/cpuinfo            : "ARMv7 Processor rev 4 (v7l)"
+```
+
+Interpretação correta dos nomes:
+
+| Campo | Valor | Significa |
+| ----- | ----- | --------- |
+| produto de build | `lima_32` | variante **32-bit** do build |
+| device / board | `lima` | família de placa (compartilhada com o Motorola One Macro) |
+| SoC | MT6771 | hardware 64-bit |
+
+Consequências para o port:
+
+- O `lima_32` do codinome marca **usuário 32-bit**, não um SoC diferente.
+- O kernel Linux é arm64 (4.14.141); o userspace é `armeabi-v7a`.
+- Um userspace Darwin seria **aarch64** — não há reuso do userspace Android.
+- Qualquer código nosso que rode em EL0 deve assumir 32-bit se executado no
+  contexto do ROM atual; o kernel XNU (arm64) roda em EL1, sem essa restrição.
+
 ## 2. SoC — ponto crítico (Resolvido)
 
 O conflito de SoC foi definitivamente resolvido via consulta de hardware ao bootloader:
@@ -86,13 +116,48 @@ Registrar a saída bruta em `research/hardware/soc-identification.txt`.
 | Armazenamento | 32 GB | **verificado** | `fastboot getvar emmc` → `32GB SAMSUNG 4X6KMB RV=08 PV=00 FV=0000000000000003` |
 | Tipo de storage | eMMC | **verificado** | `fastboot getvar storage-type` → `eMMC` |
 
+## 3.5 Limites do inventário via adb (verificado em 2026-11-10)
+
+O `adb shell` roda como usuário sem root e o SELinux bloqueia leitura de vários
+arquivos necessários:
+
+| Caminho | Resultado |
+| ------- | --------- |
+| `/proc/device-tree/*` | `Permission denied` |
+| `/proc/partitions` | `Permission denied` |
+| `/proc/bus/input/devices` | `Permission denied` |
+| `/sys/.../regs/identification/midr_el1` | vazio (sem permissão) |
+| `dmesg` | `klogctl: Permission denied` |
+
+Consequência: o inventário completo (DTB, mapa de partições, IRQs, MIDR, touch)
+**exige** um destes caminhos:
+
+1. dump read-only via BROM (`mtkclient read`) — não altera o aparelho;
+2. root temporário (exige escrita em `boot` — proibido pelas regras atuais);
+3. extração offline do `boot.img`/`dtbo` já obtidos.
+
+O que **foi** possível verificar sem root:
+
+```
+ro.board.platform : mt6771      (SoC confirmado também no SO)
+ro.hardware       : mt6771
+ro.product.device : lima
+MemTotal          : 1.846.936 kB (~1,76 GiB utilizáveis de 2 GiB)
+wm size           : 720x1520    (resolução nativa confirmada)
+wm density        : 280
+/sys/block        : mmcblk0 + mmcblk0boot0/boot1/rpmb + zram0 + dm-0..2
+```
+
+`mmcblk0boot0/boot1/rpmb` confirmam **eMMC** (não UFS). Os `dm-*` indicam
+device-mapper ativo (verity/AVB).
+
 ## 4. Tela
 
 | Campo | Valor | Status | Fonte |
 | ----- | ----- | ------ | ----- |
-| Resolução | 720×1520 **ou** 720×1600 | **conflitante** | a verificar via DTB/dmesg |
-| Painel / controlador | desconhecido | a verificar | `dmesg | grep -i -E 'dsi|panel|lcm'` |
-| Densidade | — | a verificar | `wm size`, `wm density` |
+| Resolução | **720×1520** | **verificado** | `adb shell wm size` → `Physical size: 720x1520` |
+| Densidade | 280 dpi | **verificado** | `adb shell wm density` → `Physical density: 280` |
+| Painel / controlador | desconhecido | a verificar | `dmesg`/DTB bloqueados sem root (ver §7) |
 
 ## 5. Conectividade e periféricos de interesse
 
