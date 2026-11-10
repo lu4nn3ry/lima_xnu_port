@@ -1,0 +1,1326 @@
+﻿[ 7837.533605] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533606] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.533637] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533638] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.533677] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533678] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.533695] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533696] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.533724] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533726] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.533765] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533766] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.533797] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533798] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.533816] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533817] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.533870] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533871] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.533900] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533901] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.533934] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533935] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.533965] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.533966] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.583997] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.583998] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584014] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.584015] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584031] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584032] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584047] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584048] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584063] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584064] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584079] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584081] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584095] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584096] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584111] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584112] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584127] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584128] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584143] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584144] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584159] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584160] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584180] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584181] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.584237] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584238] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.584255] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584256] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.584348] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584349] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.584583] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.584584] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.585450] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.585460] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.585551] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.585555] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.635697] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.635699] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.635720] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.635721] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.635742] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.635743] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.635773] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.635775] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.636021] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.636022] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.636240] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.636241] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.636448] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.636449] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.636515] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.636517] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.636799] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.636800] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.636925] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.636926] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.637034] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.637037] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.637139] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.637142] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.637244] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.637247] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.637345] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.637348] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.637429] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.637431] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.637515] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.637517] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.637651] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.637654] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.637724] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.637727] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.674237] [wdk-c] cpu=4,lbit=0x10,cbit=0xff,7,1,7810614402424,[7837674234104,20000000]
+[ 7837.674245] [thread:299][RT:7837674241412] 2021-10-28 21:27:10.765043 UTC;android time 2021-10-28 18:27:10.765043
+[ 7837.674255] [wdk-c] cpu=0,lbit=0x11,cbit=0xff,7,1,7810614402424,[7837674246181,19999988]
+[ 7837.674262] [wdk-c] cpu=1,lbit=0x13,cbit=0xff,7,1,7810614402424,[7837674253719,19999980]
+[ 7837.674428] [wdk-c] cpu=2,lbit=0x17,cbit=0xff,7,1,7810614402424,[7837674419488,19999814]
+[ 7837.674583] [wdk-c] cpu=7,lbit=0x97,cbit=0xff,7,1,7810614402424,[7837674579719,19999654]
+[ 7837.674705] [wdk-c] cpu=5,lbit=0xb7,cbit=0xff,7,1,7810614402424,[7837674702104,19999532]
+[ 7837.674751] [wdk-c] cpu=6,lbit=0xf7,cbit=0xff,7,1,7810614402424,[7837674748104,19999486]
+[ 7837.674783] [wdk-k] cpu=3,lbit=0xff,cbit=0xff,7,1,7810614402424,[7837674771719,19999462]
+[ 7837.687766] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.687768] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.687800] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.687801] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.687846] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.687847] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.687877] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.687879] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.687901] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.687902] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.687983] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.687984] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.688307] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.688308] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.688791] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.688795] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.688895] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.688897] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.688927] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.688928] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.688992] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.688995] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.689050] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.689053] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.689911] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.689919] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.690005] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.690008] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.690152] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.690156] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.690217] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.690220] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.691092] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.691100] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.691186] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.691189] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.741311] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741313] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741341] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.741342] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741409] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741410] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741440] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741441] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741505] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741506] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741536] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741538] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741575] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741577] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741604] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741606] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741634] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741636] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741770] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741771] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741849] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741850] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.741932] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.741934] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.742017] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.742020] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.742106] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.742108] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.742189] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.742192] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.742274] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.742277] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.742357] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.742360] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.742442] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.742445] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.792477] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792479] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792495] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.792496] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792512] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792513] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792528] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792529] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792544] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792545] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792560] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792561] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792575] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792577] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792591] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792592] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792607] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792608] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792623] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792624] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792639] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792640] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792660] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792661] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.792717] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792718] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.792735] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792736] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.792836] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.792838] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.793075] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.793077] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.793165] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.793166] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.793321] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.793322] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.843349] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.843350] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.843385] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.843387] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.843425] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.843427] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.843458] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.843459] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.843694] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.843695] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.843770] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.843771] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.844076] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.844078] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.844143] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.844144] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.844813] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.844820] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.844918] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.844919] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.844952] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.844953] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.844971] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.844972] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.844990] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.844992] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.845009] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.845010] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.845026] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.845027] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.845046] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.845048] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.845083] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.845086] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.845121] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.845124] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.895198] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.895199] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.895218] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.895219] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.895693] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.895700] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.895749] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.895750] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.895826] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.895828] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.895860] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.895861] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.895939] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.895940] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.895970] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.895972] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.896027] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.896029] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.896059] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.896060] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.896172] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.896176] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.896223] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.896226] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.897093] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.897102] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.897192] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.897195] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.897274] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.897277] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.897355] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.897358] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.897462] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.897465] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.897599] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.897602] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.947633] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.947635] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.947678] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.947680] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.947749] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.947750] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.947805] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.947806] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.947823] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.947825] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.947929] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.947931] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.948034] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.948035] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.948133] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.948134] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.948235] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.948236] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.948347] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.948348] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.948832] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.948839] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.948887] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.948889] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.948926] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.948928] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.949004] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.949006] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.949029] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.949030] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.949111] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.949114] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.949223] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.949226] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.949274] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.949276] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.999309] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999310] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999327] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7837.999328] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999343] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999345] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999360] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999361] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999376] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999378] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999392] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999394] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999408] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999410] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999424] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999426] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999440] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999442] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999456] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999457] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999472] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999473] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999493] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999494] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7837.999509] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999510] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.999525] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999526] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.999541] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999542] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.999635] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999636] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.999679] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999680] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7837.999709] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7837.999710] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.049756] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.049757] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.049775] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7838.049776] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.049809] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.049810] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.049869] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.049871] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.049897] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.049898] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.050171] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050172] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.050208] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050209] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.050289] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050291] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.050323] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050324] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.050364] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050365] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.050393] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050394] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.050423] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050424] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.050647] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050649] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.050715] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050716] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.050753] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050754] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.050781] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050783] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.050805] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050806] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.050836] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.050837] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.100868] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.100870] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.100891] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0x88)
+[ 7838.100892] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.100908] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.100910] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.100925] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.100926] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.100941] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.100943] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.100957] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.100958] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.100973] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.100974] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.100989] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.100990] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.101005] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101006] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.101021] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101022] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.101040] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101042] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.101107] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101108] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.101125] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101127] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.101232] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101233] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.101253] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101254] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.101272] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101273] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.101292] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101293] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.101349] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.101350] ILITEK: (core_spi_ice_mode_read, 557): spi ice mode enable failed
+[ 7838.151349] ILITEK: (core_config_check_cdc_busy, 890): Check busy (0x0) timeout
+[ 7838.151352] ILITEK: (core_config_ice_mode_enable, 748): ICE Mode enabled, stop mcu = 1
+[ 7838.151467] ILITEK: (core_config_ice_mode_chipid_check, 731): read PID Fail  pid = 0xffff
+[ 7838.151468] ILITEK: (core_config_ice_mode_enable, 769): ICE Mode enabled fail 1 time
+[ 7838.151522] ILITEK: (core_config_ice_mode_chipid_check, 731): read PID Fail  pid = 0xffff
+[ 7838.151523] ILITEK: (core_config_ice_mode_enable, 769): ICE Mode enabled fail 2 time
+[ 7838.151622] ILITEK: (core_config_ice_mode_chipid_check, 731): read PID Fail  pid = 0xffff
+[ 7838.151624] ILITEK: (core_config_ice_mode_enable, 769): ICE Mode enabled fail 3 time
+[ 7838.151625] ILITEK: (core_config_ice_mode_enable, 772): ICE Mode enabled fail 
+[ 7838.151725] ILITEK: (core_config_read_pc_counter, 174): pc counter = 0xffffffff
+[ 7838.151727] ILITEK: (core_config_ice_mode_disable, 711): ICE Mode disabled
+[ 7838.151754] ILITEK: (core_config_ic_suspend, 644): Check busy is timout !
+[ 7838.151756] ILITEK: (core_config_ic_suspend, 646): Enabled Gesture = 0
+[ 7838.151758] ILITEK: (core_config_sleep_ctrl, 463): Sleep Out = 0
+[ 7838.151782] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.151783] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.151820] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.151821] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.151850] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.151851] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.151870] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.151871] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.151910] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.151911] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.151935] ILITEK: (core_spi_ice_mode_enable, 539): Check Recovery data failed (0xff)
+[ 7838.151936] ILITEK: (core_spi_ice_mode_write, 592): spi ice mode enable failed
+[ 7838.151946] ILITEK: (core_config_ic_suspend, 679): Suspend done
+[ 7838.151949] mtk-tpd:[tpd_fb_notifier_callback:429] tpd_fb_notifier_callback
+[ 7838.151954] [gf] gf_fb_notifier_callback, 496, enter
+[ 7838.154900] [CMDQ][Res]resource clock engine:0x1000000 enable:false
+[ 7838.171197] [name:spm&][SODI] wake up by  R12_APXGPT1_EVENT_B, self_refresh = 0x7fffffef, sw_flag = 0x208182, 0xd, 1, 0x7fffffef, timer_out = 506, r13 = 0x86046000, debug_flag = 0x191300, 0x11, 0x0, 0x0, 0x1f3, 0x90100000, 0x0, 0x0, 5, 00100400
+[ 7838.365090] [PWM] disp_pwm_backlight_status: backlight is off, power:(0), pwm id: (0)
+[ 7838.365853] WRONG OPP: 4294967295
+[ 7838.365885] [ION]ion_fb_event: + screen-off +
+[ 7838.365891] [ION]ion_fb_event: - screen-off -
+[ 7838.365895] [M4U][ERR] m4u_fb_notifier_callback 9, 9
+[ 7838.365897] [M4U][ERR] m4u_early_suspend +, 0
+[ 7838.365899] [M4U][ERR] m4u_early_suspend -
+[ 7838.365910] [Power/PPM] @ppm_lcmoff_switch: onoff = 0
+[ 7838.365915] [name:spm&][VcoreFS] SCREEN OFF (emi_md2spm0: 0x80c0)
+[ 7838.365918] #@# cm_mgr_fb_notifier_callback(588) SCREEN OFF
+[ 7838.365923] mtk-tpd:[tpd_fb_notifier_callback:429] tpd_fb_notifier_callback
+[ 7838.365925] mtk-tpd:[tpd_fb_notifier_callback:437] fb_notify(blank=4)
+[ 7838.365926] mtk-tpd:[tpd_fb_notifier_callback:451] LCD OFF Notify
+[ 7838.365931] mtk-tpd:[tpd_fb_notifier_callback:455] cancel resume_workqueue failed
+[ 7838.365936] [HIF-SDIO][W]wmt_fb_notifier_callback:@@@@@@@@@@wmt enter early POWERDOWN @@@@@@@@@@@@@@
+[ 7838.365968] [HIF-SDIO][I]mtk_wcn_wmt_func_ctrl:wmt-exp: OPID(4) type(9) start
+[ 7838.366046] [STP-PSM] [I]_stp_psm_do_wait: STP is waiting state for ACT, i=1, state = 2
+[ 7838.366058] [gf] gf_fb_notifier_callback, 496, enter
+[ 7838.366060] [gf] [gf_fb_notifier_callback] : enter, blank=0x4
+[ 7838.366061] [gf] [gf_fb_notifier_callback] : lcd off notify
+[ 7838.366064] [gf] [gf_netlink_send] : enter, send command 2
+[ 7838.366165] [gf] [gf_netlink_send] : send done, data length is 32
+[ 7838.366167] [gf] gf_fb_notifier_callback, 522, exit
+[ 7838.366434] [gf] gf_ioctl, 569, enter
+[ 7838.366437] gf_ioctl: GF_IOC_ENABLE_SPI_CLK ======
+[ 7838.366440] gf_spi_clk_enable line:273 try to control spi clk
+[ 7838.366443] gf_spi_clk_enable line:288 enable spi clk
+[ 7838.367162] binder: 3400819: from 0:0 to 757:1241
+[ 7838.367173] binder:  total 2.772 s code 19 start 7835.602 android 2021-10-28 18:27:08.685
+[ 7838.369317] binder: 3400822: from 0:0 to 725:17427
+[ 7838.369323] binder:  total 2.774 s code 19 start 7835.603 android 2021-10-28 18:27:08.685
+[ 7838.374776] [gf] gf_ioctl, 860, exit
+[ 7838.377417] Trustonic TEE: 1101(1)|[GF_TA][V][gf_ta][gf_ta_invoke_cmd_entry_point] enter
+[ 7838.377441] Trustonic TEE: 1101(1)|[GF_TA][D][gf_ta][gf_ta_invoke_cmd_entry_point] cmd_id=GF_CMD_SCREEN_OFF, cmd_id_code=1018
+[ 7838.377456] Trustonic TEE: 1101(1)|[GF_TA][V][gf_ta][gf_ta_screen_off] enter
+[ 7838.377609] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] enter
+[ 7838.378787] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_get_current_operation] g_current_operation=OPERATION_NAV
+[ 7838.378806] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] exit
+[ 7838.378821] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_next_operation] enter
+[ 7838.378839] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_get_next_operation] g_operation_array is empty,execute default operation!
+[ 7838.378854] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_default_operation] enter
+[ 7838.378868] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_default_operation] exit
+[ 7838.378882] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_next_operation] exit
+[ 7838.378897] Trustonic TEE: 1101(1)|[GF_TA][D][gf_fingerlist][gf_fingerlist_has_enrolled_fingerprints] enter
+[ 7838.378912] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_require_down_and_up_in_pairs_end] enter
+[ 7838.378927] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_require_down_and_up_in_pairs_end] exit
+[ 7838.378942] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_execute_operation] enter
+[ 7838.378957] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_execute_operation] execute OPERATION_NONE 
+[ 7838.378971] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] enter
+[ 7838.378987] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_get_current_operation] g_current_operation=OPERATION_NAV
+[ 7838.379002] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] exit
+[ 7838.379016] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][state_set_current_operation] enter
+[ 7838.379030] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] enter
+[ 7838.381127] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_get_current_operation] g_current_operation=OPERATION_NAV
+[ 7838.381146] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] exit
+[ 7838.381160] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state][gf_state_set_mode] enter
+[ 7838.381173] Trustonic TEE: 1101(1)|[GF_TA][V][gf_milan][gf_hw_set_mode] enter
+[ 7838.381196] Trustonic TEE: 1101(1)|[GF_TA][I][gf_milan][gf_hw_set_mode] current_mode=MODE_NAV, current_mode_code=4, cur_chip_state=3, new_mode=MODE_SLEEP, new_mode_code=2
+[ 7838.381211] Trustonic TEE: 1101(1)|[GF_TA][V][gf_milan][milan_set_mode] enter
+[ 7838.381224] Trustonic TEE: 1101(1)|[GF_TA][V][milan_bus][gf_milan_secspi_write_cmd] enter
+[ 7838.381240] Trustonic TEE: 1101(1)|[GF_TA][D][milan_bus][gf_milan_secspi_write_cmd] cmd=0xc0
+[ 7838.381253] Trustonic TEE: 1101(1)|[GF_TA][V][milan_bus][gf_milan_secspi_write_cmd] exit
+[ 7838.381266] Trustonic TEE: 1101(1)|[GF_TA][V][gf_tee_time][gf_sleep] enter
+[ 7838.381281] Trustonic TEE: 902(1)|[drIpchLoop] GF_DR version: GF_DR_v1.0
+[ 7838.381296] Trustonic TEE: 902(1)|[gf_dr_ipch][gf_dr_invoke_cmd_entry_point] sleep (1) ms start
+[ 7838.384274] Trustonic TEE: 902(1)|[gf_dr_ipch][gf_dr_invoke_cmd_entry_point] sleep(1)ms, real sleep(1)ms
+[ 7838.384290] Trustonic TEE: 1101(1)|[GF_TA][V][gf_tee_time][gf_sleep] exit
+[ 7838.384304] Trustonic TEE: 1101(1)|[GF_TA][V][milan_bus][gf_milan_reg_access] enter
+[ 7838.384327] Trustonic TEE: 1101(1)|[GF_TA][D][milan_bus][gf_milan_reg_access] WRITE=0x0124(2 bytes), SUCCESS=0xff 0xff 0x00 0x00
+[ 7838.384341] Trustonic TEE: 1101(1)|[GF_TA][V][milan_bus][gf_milan_reg_access] exit
+[ 7838.384355] Trustonic TEE: 1101(1)|[GF_TA][V][milan_bus][gf_milan_secspi_write_cmd] enter
+[ 7838.384370] Trustonic TEE: 1101(1)|[GF_TA][D][milan_bus][gf_milan_secspi_write_cmd] cmd=0xc8
+[ 7838.384384] Trustonic TEE: 1101(1)|[GF_TA][V][milan_bus][gf_milan_secspi_write_cmd] exit
+[ 7838.384397] Trustonic TEE: 1101(1)|[GF_TA][V][gf_tee_time][gf_sleep] enter
+[ 7838.384412] Trustonic TEE: 902(1)|[drIpchLoop] GF_DR version: GF_DR_v1.0
+[ 7838.384428] Trustonic TEE: 902(1)|[gf_dr_ipch][gf_dr_invoke_cmd_entry_point] sleep (1) ms start
+[ 7838.384444] Trustonic TEE: 902(1)|[gf_dr_ipch][gf_dr_invoke_cmd_entry_point] sleep(1)ms, real sleep(1)ms
+[ 7838.384458] Trustonic TEE: 1101(1)|[GF_TA][V][gf_tee_time][gf_sleep] exit
+[ 7838.384471] Trustonic TEE: 1101(1)|[GF_TA][V][gf_milan][milan_set_mode] exit
+[ 7838.384484] Trustonic TEE: 1101(1)|[GF_TA][V][gf_milan][gf_hw_set_mode] exit
+[ 7838.384502] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state][gf_state_set_mode] set mode success, mode=MODE_SLEEP
+[ 7838.384515] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state][gf_state_set_mode] exit
+[ 7838.384528] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][state_set_current_operation] exit
+[ 7838.384543] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] enter
+[ 7838.384559] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_get_current_operation] g_current_operation=OPERATION_NONE
+[ 7838.384574] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] exit
+[ 7838.384588] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] enter
+[ 7838.386881] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_get_current_operation] g_current_operation=OPERATION_NONE
+[ 7838.386901] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] exit
+[ 7838.386919] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_execute_operation] g_current_operation=OPERATION_NONE
+[ 7838.386934] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_execute_operation] exit
+[ 7838.386947] Trustonic TEE: 1101(1)|[GF_TA][V][gf_ta][gf_ta_screen_off] exit
+[ 7838.386961] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] enter
+[ 7838.386977] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_get_current_operation] g_current_operation=OPERATION_NONE
+[ 7838.386992] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] exit
+[ 7838.387006] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_mode] enter
+[ 7838.387021] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] enter
+[ 7838.387037] Trustonic TEE: 1101(1)|[GF_TA][D][gf_state_common][gf_state_get_current_operation] g_current_operation=OPERATION_NONE
+[ 7838.387052] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_operation] exit
+[ 7838.387066] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_current_mode] exit
+[ 7838.387080] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_operation_array] enter
+[ 7838.387094] Trustonic TEE: 1101(1)|[GF_TA][V][gf_state_common][gf_state_get_operation_array] exit
+[ 7838.387111] Trustonic TEE: 1101(1)|[GF_TA][D][gf_ta][gf_ta_invoke_cmd_entry_point] mode=MODE_SLEEP, mode_code=2
+[ 7838.387128] Trustonic TEE: 1101(1)|[GF_TA][D][gf_ta][gf_ta_invoke_cmd_entry_point] operation=OPERATION_NONE, operation_code=52
+[ 7838.387142] Trustonic TEE: 1101(1)|[GF_TA][V][gf_ta][gf_ta_invoke_cmd_entry_point] exit
+[ 7838.387940] [gf] gf_ioctl, 569, enter
+[ 7838.387954] gf_ioctl: GF_IOC_DISABLE_SPI_CLK ======
+[ 7838.387965] gf_spi_clk_enable line:273 try to control spi clk
+[ 7838.387976] gf_spi_clk_enable line:292 disable spi clk
+[ 7838.388006] [gf] gf_ioctl, 860, exit
+[ 7838.391225] [STP-PSM] [I]_stp_psm_do_wait: +Total waits for ACT takes 25173 usec
+[ 7838.391318] [WMT-CORE][I]wmt_core_dump_func_state:[AF FUNC OFF]status(b:2 f:0 g:0 w:2 lpbk:0 coredump:0 wmt:2 ant:0 sd1:0 sd2:0 stp:0)
+[ 7838.391443] [HIF-SDIO][I]mtk_wcn_wmt_func_ctrl:OPID(4) type(9) ok
+[ 7838.439828] [name:spm&][DP] dpidle_log_discard_cnt = 118, timer_out_too_short = 1, oper_cond = 11
+[ 7838.439869] [name:spm&][SPM] wake up by  R12_APXGPT1_EVENT_B, timer_out = 299, r13 = 0x86046000, debug_flag = 0x1910fc 0x0, r12 = 0x10, r12_ext = 0x0, raw_sta = 0x0, idle_sta = 0x1ff, req_sta =  0x100400, event_reg = 0x90100000, isr = 0x0, raw_ext_sta = 0x400590a9, wake_misc = 0x0, pcm_flag = 0x108182 0x340, req = 0x0
+[ 7838.904047] [name:spm&]Power/swap DP: [0] = 9, [1] = 3, [2] = 3, [3] = 5, [4] = 1, Total = 21,  --- SODI3: No enter --- SODI: [1] = 6, [2] = 3, [3] = 1, Total = 10,  --- 
+[ 7838.904058] [mcdi]mcdi cpu: 671, 452, 373, 319, 225, 190, 65, 39, cluster : 228, 112, pause = 85, multi core = 145, latency = 0, residency = 4, last core = 233, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7839.010041] ///PD dbg info 38d
+[ 7839.010077] < 7839.009>TCPC-TYPEC:[CC_Alert] 5/0\x0d
+[ 7839.010711] pd_tcp_notifier_call attach wait sink
+[ 7839.035588] ///PD dbg info 109d
+[ 7839.035625] < 7839.010>TCPC-TYPEC:** AttachWait.SNK\x0d\x0a< 7839.011>TCPC-TCPC:ps_change=0\x0d\x0a< 7839.022>TCPC-TCPC:ps_change=2\x0d
+[ 7839.131065] ///PD dbg info 78d
+[ 7839.131096] < 7839.130>TCPC-TYPEC:[CC_Change] 5/0\x0d\x0a< 7839.130>TCPC-TYPEC:** Attached.SNK\x0d
+[ 7839.131511] PD charger event:14 5
+[ 7839.131526] otg_tcp_notifier_call, TCP_NOTIFY_TYPEC_STATE, old_state=0, new_state=1
+[ 7839.157620] ///PD dbg info 79d
+[ 7839.157655] < 7839.131>TCPC-TYPEC:Attached-> SINK\x0d\x0a< 7839.131>TCPC-TCPC:usb_port_attached\x0d
+[ 7839.277202] rt9471 5-0053: rt9471_irq_handler
+[ 7839.278395] rt9471 5-0053: rt9471_vbus_gd_irq_handler
+[ 7839.278851] rt9471 5-0053: rt9471_enable_bc12 en = 0
+[ 7839.278894] rt9471 5-0053: rt9471_enable_bc12 en = 1
+[ 7839.278905] rt9471 5-0053: rt9471_bc12_en_kthread en = 0
+[ 7839.278913] rt9471 5-0053: rt9471_set_usbsw_state state = 1
+[ 7839.279544] rt9471 5-0053: rt9471_bc12_en_kthread en = 1
+[ 7839.279559] rt9471 5-0053: rt9471_bc12_en_kthread CDP free
+[ 7839.279571] rt9471 5-0053: rt9471_set_usbsw_state state = 0
+[ 7839.484200] rt9471 5-0053: rt9471_irq_handler
+[ 7839.485175] rt9471 5-0053: rt9471_bc12_done_irq_handler
+[ 7839.485191] rt9471 5-0053: rt9471_bc12_done_handler
+[ 7839.485865] rt9471 5-0053: rt9471_bc12_done_handler bc12_done = 1, chg_rdy = 0
+[ 7839.485905] rt9471 5-0053: rt9471_bc12_postprocess attach = 1
+[ 7839.486383] rt9471 5-0053: rt9471_enable_bc12 en = 0
+[ 7839.486481] rt9471 5-0053: rt9471_inform_psy_changed vbus_gd = 1, type = 2
+[ 7839.486503] mt_charger_set_property
+[ 7839.486512] mt_charger_set_property
+[ 7839.486523] dump_charger_name: charger type: 2, Charging USB Host
+[ 7839.486533] mt_usb_connect
+[ 7839.486617] rt9471 5-0053: rt9471_bc12_done_handler 14 CDP
+[ 7839.486714] rt9471 5-0053: rt9471_bc12_en_kthread en = 0
+[ 7839.486730] rt9471 5-0053: rt9471_set_usbsw_state state = 1
+[ 7839.486808] cur_dr(2) new_dr(1)
+[ 7839.486828] [MTU3]mailbox state(4)
+[ 7839.486842] [MTU3]usb_cable_connected vbus_exist=1 type=2
+[ 7839.486853] [MTU3]dr_wq is ready
+[ 7839.486859] rt9471 5-0053: rt9471_irq_handler
+[ 7839.487026] mtk_charger_int_handler
+[ 7839.487042] battery_callback:1
+[ 7839.487061] ABOVps notification: event = 0
+[ 7839.487074] ABOVcharger is present
+[ 7839.487088] ILITEK: (ilitek_charger_notifier_callback, 1096): ilitek chgrger notification : event = 0
+[ 7839.487200] ABOVUsb insert,going to force calibrate
+[ 7839.487344] [MTU3]ssusb_set_mode = 1
+[ 7839.487359] mtu3_phone musb-hdrc: switch_port_to_device
+[ 7839.488259] [FGADC_intr_end][FG_INTR_INIT][read_fg_hw_info] curr_1 -1377 curr_2 -1277 Iavg 783 sign 0 car 1576 ncar -4644 time 21144
+[ 7839.488276] [fg_sw_bat_cycle_accu]car[o:1579 n:1576],diff_car:-3,ncar[o:1452 n:1455 hw:-4644] thr 39173
+[ 7839.488438] rt9471 5-0053: rt9471_chg_rdy_irq_handler
+[ 7839.488457] [MTU3]DEV mode
+[ 7839.488473] [MTU3]DEV mode
+[ 7839.489826] [MDRT_ADC] OLD = 0x2e77, NOW = 0x2e6d, CNT = 0
+[ 7839.489970] healthd: battery l=28 v=3654 t=36.0 h=2 st=2 c=-137 fc=3925000 cc=1001 chg=u
+[ 7839.491378] ABOVwrite_register Addr: 0xfb Val: 0x1 Return: 2
+[ 7839.493039] alarmtimer_enqueue: 5 callbacks suppressed
+[ 7839.493050] alarmtimer_enqueue, 12744829738000
+[ 7839.495580] healthd: battery l=28 v=3654 t=36.0 h=2 st=2 c=-191 fc=3925000 cc=1001 chg=u
+[ 7839.499595] alarmtimer_enqueue, 12860552000000
+[ 7839.499848] [Power/PPM] (0xa0)(6140)(0)(0-7)(8)(0)(4)(4) (9)(0)(4)(4) 
+[ 7839.502020] [STP-PSM] [I]stp_psm_disable_by_tx_rx_density: STP speed rx:0 tx:4
+[ 7839.502042] [STP-PSM] [I]stp_psm_disable_by_tx_rx_density: Low speed,Enable monitor
+[ 7839.502232] alarmtimer_enqueue, 1073741824000000000
+[ 7839.504332] wmt_lib_ps_handler: 1 callbacks suppressed
+[ 7839.504337] conn2ap_btif0_wakeup_out_b EIRQ handler
+[ 7839.505097] alarmtimer_enqueue, 13534363000000
+[ 7839.508740] healthd: battery l=28 v=3654 t=36.0 h=2 st=2 c=-318 fc=3925000 cc=1001 chg=u
+[ 7839.512841] alarmtimer_enqueue, 13829334000000
+[ 7839.513899] aw8624_vibrator_work_routine enter
+[ 7839.515984] aw8624_vibrator_work_routine enter
+[ 7839.517622] aw8624_haptic_ram_config aw8624->duration :640
+[ 7839.517982] mtu3_phone musb-hdrc: max_speed: high-speed
+[ 7839.518001] mtu3_phone musb-hdrc: SOFTCONN = 1
+[ 7839.518009] mtu3_phone musb-hdrc: gadget (high-speed) pullup D+
+[ 7839.519102] aw8624_interrupt_clear: reg SYSINT=0x21
+[ 7839.519707] aw8624_interrupt_clear: reg SYSINT=0x0
+[ 7839.521004] rt9471 5-0053: rt9471_irq_handler
+[ 7839.521582] rt9471 5-0053: rt9471_chg_mivr_irq_handler mivr = 1
+[ 7839.550389] vbat_out_old=37300, vthr=684, T_curr=396, vbat_out=37333
+[ 7839.550417] mt635x_auxadc_read_raw: 12 callbacks suppressed
+[ 7839.550430] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x586f, adc_result=3733
+[ 7839.550694] [CH3_DBG] bat_cur = -514
+[ 7839.552947] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bb, adc_result=614
+[ 7839.553393] charger_psy_event: 0 battery tmp:36 35 chr:2
+[ 7839.553898] Normal Charger Detected
+[ 7839.556304] vbat_out_old=37680, vthr=683, T_curr=402, vbat_out=37715
+[ 7839.556346] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5951, adc_result=3772
+[ 7839.556722] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x455, adc_result=487
+[ 7839.556934] [CH3_DBG] bat_cur = -38
+[ 7839.558290] healthd: battery l=28 v=3733 t=36.0 h=2 st=2 c=-3 fc=3925000 cc=1001 chg=u
+[ 7839.560003] wake_up_charger
+[ 7839.560949] [FGADC_intr_end][FG_INTR_CHARGER_IN][read_fg_hw_info] curr_1 0 curr_2 -1277 Iavg 783 sign 0 car 1576 ncar -4644 time 21144
+[ 7839.561299] [fr] FG_DAEMON_CMD_GET_FG_CURRENT_IAVG_VALID = 1
+[ 7839.561858] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b7, adc_result=610
+[ 7839.562314] Vbat=3772,Ibat=-267,I=0,VChr=4607,T=36,Soc=35:28,CT:2:0 hv:1 pd:0:0
+[ 7839.562325] mtk_is_charger_on plug in, type:2
+[ 7839.562338] rt9471 5-0053: __rt9471_set_aicr aicr = 500000(0x0A)
+[ 7839.562640] rt9471 5-0053: rt9471_plug_in
+[ 7839.562652] rt9471 5-0053: __rt9471_set_wdt time = 40(0x01)
+[ 7839.562916] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7839.563192] mtk_charger_start_timer: alarm timer start:12694 899898930
+[ 7839.563433] [CH3_DBG] bat_cur = -99
+[ 7839.564370] vbat_out_old=37660, vthr=683, T_curr=402, vbat_out=37695
+[ 7839.564698] [CH3_DBG] bat_cur = -99
+[ 7839.572860] [mmi_charger_check_status]batt=3733 mV, 6 mA, 36 C, USB= 4607 mV
+[ 7839.572883] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7839.572889] [mmi_charger_check_status]Step State = MAX
+[ 7839.572895] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7839.573205] MTK_FG: [FGADC_info] tmp:36 36 36 rdnafg:0 vc:0 disable_fg:0:0 fg_v:4122:5878:39337:-9409:39173:6523:3477:3477 low_temp:0 0 0
+[ 7839.573243] MTK_FG: [FGADC_intr_end][FG_INTR_CHARGER_IN]soc:3477 fg_c_soc:1317 fg_v_soc:3477 ui_soc:2843 vc_diff:-2160 vc_mode 0 VBAT 37700 T:[36 V 36 C 37 avg:38] D0_C 912 D0_V 5878 CAR[c:1590 v:-9409] Q:[39173 39173 39173 39173] aging 10000 bat_cycle 1001 Trk[0(0):0:0] UI[0:0] Chr[0:0:0] pseudo1 -9  DC_ratio 100 dodinit[9][0],ag[0 0 0 0 0 0]I:783
+[ 7839.573562] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7839.573570] mtk_switch_charging_run [1 0], timer=0
+[ 7839.573808] [CH3_DBG] bat_cur = -72
+[ 7839.575243] vbat_out_old=37530, vthr=683, T_curr=402, vbat_out=37565
+[ 7839.575592] [CH3_DBG] bat_cur = -366
+[ 7839.576561] healthd: battery l=28 v=3757 t=36.3 h=2 st=2 c=-36 fc=3925000 cc=1001 chg=u
+[ 7839.577205] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7839.577225] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7839.577238] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7839.577598] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7839.577870] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7839.578394] mtk_rtc_hal_common: hal_rtc_get_spare_register: cmd[0], get rg[0x5aa, 0xff , 8] = 0x9c
+[ 7839.578399] Normal Charger Detected
+[ 7839.578408] mtk_rtc_hal_common: hal_rtc_set_spare_register: cmd[0], set rg[0x5aa, 0xff , 8] = 0x9c
+[ 7839.578654] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7839.579065] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7839.579311] [fg_res] FG_DAEMON_CMD_SET_CON0_SOC = 3527
+[ 7839.579386] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7839.579829] rt9471 5-0053: __rt9471_kick_wdt
+[ 7839.580045] healthd: battery l=28 v=3757 t=36.0 h=2 st=2 c=-73 fc=3925000 cc=1001 chg=u
+[ 7839.581522] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7839.581539] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7839.581545] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7839.581552] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7839.581558] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7839.586265] vbat_out_old=37440, vthr=683, T_curr=402, vbat_out=37475
+[ 7839.586395] [MTU3]DEV mode
+[ 7839.588254] vbat_out_old=37490, vthr=683, T_curr=402, vbat_out=37525
+[ 7839.589253] [CH3_DBG] bat_cur = -488
+[ 7839.591354] vbat_out_old=37380, vthr=683, T_curr=402, vbat_out=37415
+[ 7839.591424] get_shutdown_cond ret:0 0 0 0 vbat:3742
+[ 7839.592502] BAT_TEMP_PREV:613,BAT_TEMP:610,VBIF28:2806
+[ 7839.592744] Vbat=3753,Ibat=-22,I=0,VChr=4607,T=36,Soc=35:28,CT:2:2 hv:1 pd:0:0
+[ 7839.592755] mtk_charger_start_timer: alarm timer start:12694 929463010
+[ 7839.593021] [CH3_DBG] bat_cur = -1010
+[ 7839.595562] [mmi_charger_check_status]batt=3757 mV, -148 mA, 36 C, USB= 4607 mV
+[ 7839.595586] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7839.595591] [mmi_charger_check_status]Step State = MAX
+[ 7839.595598] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7839.596488] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7839.596511] mtk_switch_charging_run [1 0], timer=0
+[ 7839.596725] [CH3_DBG] bat_cur = -1651
+[ 7839.597416] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7839.597442] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7839.597456] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7839.598000] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7839.598299] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7839.599605] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7839.599904] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7839.600188] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7839.600450] rt9471 5-0053: __rt9471_kick_wdt
+[ 7839.602261] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7839.602285] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7839.602291] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7839.602298] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7839.602303] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7839.666870] CheckSramAvail MaxSramSize = 16384 mSramLength = 16384 mSramBlockidx = 0 mSramBlocknum= 4
+[ 7839.669457] mtk-audio 11220000.audio: +cirrus_amp_hw_params, mclk refcount = 0
+[ 7839.670359] mtk-audio 11220000.audio: +cirrus_amp_hw_params, mclk refcount = 1
+[ 7839.677454] warn, cannot update irq counter, user_id =   (null), irq1_cnt = 1024
+[ 7839.678028] AudWarn data underflow [0/1] MemType 0, Remain:0x1f30, R:0xd0 W:0x2000, BufSize:0x4000, consumebyte:0x2000, hw index:0x20d0, addr:0x11221000
+[ 7839.698898] mtu3_phone musb-hdrc: mtu3_link_isr: high-speed
+[ 7839.698931] mtu3_phone musb-hdrc: gadget RESET
+[ 7839.698987] android_work: did not send uevent (0 0   (null))
+[ 7839.783654] android_work: sent uevent USB_STATE=CONNECTED
+[ 7839.798183] configfs-gadget gadget: [rlimit]non-core reqc0.01 v0000 i0004 l16
+[ 7839.798211] configfs-gadget gadget: [rlimit]val:-95,bReqType:c0,bReq:1
+[ 7839.798217] configfs-gadget gadget: [rlimit]w_value=0x0, w_length=0x10
+[ 7839.876410] configfs-gadget gadget: high-speed config #1: b
+[ 7839.876445] saving_mode : 0
+[ 7839.876463] saving_mode : 0
+[ 7839.876497] configfs-gadget gadget: USB_REQ_SET_CONFIGURATION: value=0
+[ 7839.876721] android_work: sent uevent USB_STATE=CONFIGURED
+[ 7840.159353] aw8624_vibrator_work_routine enter
+[ 7840.167574] aw8624_haptic_stop_delay wait for standby, reg glb_state=0x07
+[ 7840.501999] [Power/PPM] (0x20)(5944)(0)(0-7)(15)(0)(4)(4) (15)(0)(4)(4) 
+[ 7840.904333] usb_state<CONFIGURED>
+[ 7841.140411] [CH3_DBG] bat_cur = 2418
+[ 7841.140800] mt635x_auxadc_read_raw: 23 callbacks suppressed
+[ 7841.140818] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7841.321257] [CH3_DBG] bat_cur = 2437
+[ 7841.321665] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b9, adc_result=612
+[ 7841.454725] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x614, adc_result=683
+[ 7841.756204] vbat_out_old=38650, vthr=684, T_curr=396, vbat_out=38685
+[ 7841.756252] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5ba1, adc_result=3869
+[ 7841.757960] vbat_out_old=38710, vthr=683, T_curr=402, vbat_out=38746
+[ 7841.757977] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5bc2, adc_result=3875
+[ 7841.757991] [PBM] [ma_to_mw] 3875(mV) * 2462(mA) = 9540(mW)
+[ 7841.758030] [DLPT_final] 2462,28,28,1,5500
+[ 7842.252228] [name:bc&]tick broadcast enter counter cpu: 638, 499, 449, 370, 210, 33, 46, 33, success counter cpu: 52, 68, 39, 29, 54, 5, 13, 16, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 77, 99, 67, 57, 93, 6, 17, 20, o: 1-7, p: , f: 0, t:  7842260358796, 7842268246509, 7842568854959, 7842304320874, 7842930166534, 7842984594797, 7842976865950, 7857782575647,
+[ 7842.468270] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x614, adc_result=683
+[ 7843.481560] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x615, adc_result=684
+[ 7843.914616] [name:spm&]Power/swap DP: [0] = 7, [1] = 7, [2] = 3, [3] = 3, [4] = 1, Total = 21,  --- SODI3: No enter --- SODI: No enter --- 
+[ 7843.914696] [mcdi]mcdi cpu: 645, 528, 442, 404, 174, 28, 46, 31, cluster : 155, 180, pause = 174, multi core = 522, latency = 0, residency = 7, last core = 701, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7844.057784] alarmtimer_enqueue: 5 callbacks suppressed
+[ 7844.057798] alarmtimer_enqueue, 13829334000000
+[ 7844.247024] mtk-audio 11220000.audio: +cirrus_amp_shutdown, mclk refcount = 2 
+[ 7844.288159] [AudioWarn] u4DataRemained=0xfffffec0, mem_block 0
+[ 7844.292154] mtk-audio 11220000.audio: +cirrus_amp_shutdown, mclk refcount = 1 
+[ 7845.588358] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5ce, adc_result=653
+[ 7845.588773] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d4, adc_result=655
+[ 7845.589347] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d1, adc_result=654
+[ 7846.020985] usb_state<CONFIGURED>
+[ 7846.441359] [CH3_DBG] bat_cur = 2536
+[ 7846.441837] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b7, adc_result=610
+[ 7846.552759] alarmtimer_enqueue, 13829334000000
+[ 7846.655885] alarmtimer_enqueue, 13829334000000
+[ 7847.259144] [name:bc&]tick broadcast enter counter cpu: 623, 543, 417, 347, 138, 12, 6, 2, success counter cpu: 71, 116, 31, 24, 33, 5, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 159, 220, 74, 53, 67, 8, 2, 0, o: 1,3-7, p: , f: , t:  7847269215273, 7847276323217, 7847569795229, 7847569827229, 7857782583109, 7849601088993, 7857782574878, 7857782575647,
+[ 7847.340304] [name:spm&]Power/swap CNT(soidle3,rgidle): [0] = (0,0), [1] = (0,0), [2] = (0,0), [3] = (0,0), [4] = (0,0), [5] = (0,0), [6] = (0,0), [7] = (0,0), 
+[ 7847.340337] [name:spm&]Power/swap soidle3_block_cnt: [by_frm] = 0, [by_cpu] = 0, [by_srr] = 1386, [by_ufs] = 0, [by_tee] = 0, [by_clk] = 15, [by_dcs] = 0, [by_dis] = 0, [by_pwm] = 0, [by_pll] = 0, [by_boot] = 0, 
+[ 7847.340349] [name:spm&]Power/swap soidle3_block_mask: 0x00040000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 7847.340353] [name:spm&][resource_req_block] user: 0x4, 0x0
+[ 7848.578015] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x615, adc_result=684
+[ 7848.926099] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7848.926186] [mcdi]mcdi cpu: 516, 489, 367, 346, 130, 11, 4, 2, cluster : 331, 133, pause = 329, multi core = 293, latency = 0, residency = 10, last core = 632, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7849.592852] mtk_charger_alarm_timer_func: not suspend, wake up charger
+[ 7849.594858] [MDRT_ADC] OLD = 0x2e6d, NOW = 0x2e5e, CNT = 0
+[ 7849.595273] vbat_out_old=38810, vthr=684, T_curr=396, vbat_out=38845
+[ 7849.595298] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c03, adc_result=3885
+[ 7849.595670] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x455, adc_result=487
+[ 7849.595900] [CH3_DBG] bat_cur = 2696
+[ 7849.596271] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b8, adc_result=611
+[ 7849.596506] Vbat=3885,Ibat=2674,I=0,VChr=4607,T=36,Soc=35:28,CT:2:2 hv:1 pd:0:0
+[ 7849.596522] mtk_charger_start_timer: alarm timer start:12704 933229088
+[ 7849.596535] alarmtimer_enqueue, 12704933229088
+[ 7849.596759] [CH3_DBG] bat_cur = 2651
+[ 7849.597117] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b8, adc_result=611
+[ 7849.597946] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x455, adc_result=487
+[ 7849.597962] [mmi_charger_check_status]batt=3757 mV, 265 mA, 36 C, USB= 4607 mV
+[ 7849.597977] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7849.597987] [mmi_charger_check_status]Step State = MAX
+[ 7849.597999] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7849.598713] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7849.598728] mtk_switch_charging_run [1 0], timer=0
+[ 7849.598984] [CH3_DBG] bat_cur = 2460
+[ 7849.599643] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7849.599675] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7849.599697] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7849.600505] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7849.600825] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7849.601143] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7849.601454] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7849.601760] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7849.602067] rt9471 5-0053: __rt9471_kick_wdt
+[ 7849.603736] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7849.603751] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7849.603764] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7849.603777] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7849.603790] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7850.708643] mt635x_auxadc_read_raw: 3 callbacks suppressed
+[ 7850.708666] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d5, adc_result=656
+[ 7850.709250] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d2, adc_result=654
+[ 7850.709637] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5ce, adc_result=653
+[ 7851.134362] usb_state<CONFIGURED>
+[ 7851.141400] [CH3_DBG] bat_cur = 2620
+[ 7851.141798] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b9, adc_result=612
+[ 7851.561668] [CH3_DBG] bat_cur = 2700
+[ 7851.562082] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bb, adc_result=614
+[ 7851.776469] vbat_out_old=38850, vthr=684, T_curr=396, vbat_out=38885
+[ 7851.776516] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c1b, adc_result=3889
+[ 7851.778180] vbat_out_old=38830, vthr=684, T_curr=396, vbat_out=38865
+[ 7851.778197] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c0d, adc_result=3887
+[ 7851.778211] [PBM] [ma_to_mw] 3887(mV) * 2526(mA) = 9818(mW)
+[ 7851.778251] [DLPT_final] 2526,28,28,1,5500
+[ 7852.275198] [name:bc&]tick broadcast enter counter cpu: 516, 506, 326, 348, 90, 1, 0, 0, success counter cpu: 91, 70, 10, 29, 25, 0, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 154, 127, 28, 78, 39, 1, 0, 0, o: 0-1,3-7, p: , f: , t:  7852285295572, 7852300914566, 7852283477510, 7852571480114, 7857782583109, 7857782575032, 7857782574878, 7857782575647,
+[ 7853.694827] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x615, adc_result=684
+[ 7853.927207] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7853.927284] [mcdi]mcdi cpu: 508, 514, 346, 337, 91, 1, 0, 0, cluster : 287, 92, pause = 280, multi core = 361, latency = 0, residency = 11, last core = 652, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7855.828299] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d2, adc_result=654
+[ 7855.830207] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7855.830819] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d5, adc_result=656
+[ 7856.261077] usb_state<CONFIGURED>
+[ 7856.681736] [CH3_DBG] bat_cur = 2685
+[ 7856.682372] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b9, adc_result=612
+[ 7857.276684] [name:bc&]tick broadcast enter counter cpu: 487, 491, 377, 322, 69, 0, 0, 0, success counter cpu: 60, 130, 45, 13, 16, 0, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 109, 162, 70, 26, 31, 0, 0, 0, o: 0,2-7, p: , f: 1, t:  7857349214265, 7857284853586, 7857324160992, 7857572789768, 7857782583109, 7857782575032, 7857782574878, 7857782575647,
+[ 7857.677706] [wdk-c] cpu=1,lbit=0x2,cbit=0xff,7,1,7810614402424,[7857677680998,20000000]
+[ 7857.677756] [thread:295][RT:7857677743613] 2021-10-28 21:27:30.768546 UTC;android time 2021-10-28 18:27:30.768546
+[ 7857.768253] [wdk-c] cpu=2,lbit=0x6,cbit=0xff,7,1,7810614402424,[7857768228229,19909452]
+[ 7857.774253] [wdk-c] cpu=0,lbit=0x7,cbit=0xff,7,1,7810614402424,[7857774245152,19903435]
+[ 7857.774287] [wdk-c] cpu=3,lbit=0xf,cbit=0xff,7,1,7810614402424,[7857774278613,19903401]
+[ 7857.774470] [wdk-c] cpu=6,lbit=0x4f,cbit=0xff,7,1,7810614402424,[7857774459152,19903221]
+[ 7857.774606] [wdk-c] cpu=4,lbit=0x5f,cbit=0xff,7,1,7810614402424,[7857774598844,19903081]
+[ 7857.774673] [wdk-c] cpu=5,lbit=0x7f,cbit=0xff,7,1,7810614402424,[7857774665844,19903014]
+[ 7857.774744] [wdk-k] cpu=7,lbit=0xff,cbit=0xff,7,1,7810614402424,[7857774734767,19902945]
+[ 7858.814907] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7858.935145] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7858.935229] [mcdi]mcdi cpu: 498, 502, 378, 322, 66, 1, 1, 2, cluster : 273, 65, pause = 271, multi core = 352, latency = 0, residency = 10, last core = 633, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7859.596581] mtk_charger_alarm_timer_func: not suspend, wake up charger
+[ 7859.598239] [MDRT_ADC] OLD = 0x2e5e, NOW = 0x2e6d, CNT = 0
+[ 7859.599547] vbat_out_old=38860, vthr=684, T_curr=396, vbat_out=38895
+[ 7859.599572] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c22, adc_result=3890
+[ 7859.599929] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x455, adc_result=487
+[ 7859.600141] [CH3_DBG] bat_cur = 2540
+[ 7859.600514] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7859.600743] Vbat=3890,Ibat=2651,I=0,VChr=4607,T=36,Soc=35:28,CT:2:2 hv:1 pd:0:0
+[ 7859.600759] mtk_charger_start_timer: alarm timer start:12714 937467320
+[ 7859.600771] alarmtimer_enqueue, 12714937467320
+[ 7859.601022] [CH3_DBG] bat_cur = 2254
+[ 7859.601377] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bd, adc_result=616
+[ 7859.602191] [mmi_charger_check_status]batt=3757 mV, 225 mA, 36 C, USB= 4598 mV
+[ 7859.602208] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7859.602218] [mmi_charger_check_status]Step State = MAX
+[ 7859.602231] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7859.602934] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7859.602949] mtk_switch_charging_run [1 0], timer=10
+[ 7859.603195] [CH3_DBG] bat_cur = 2429
+[ 7859.603749] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7859.603779] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7859.603798] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7859.604472] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7859.605058] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7859.605662] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7859.606106] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7859.606418] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7859.606730] rt9471 5-0053: __rt9471_kick_wdt
+[ 7859.608875] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7859.608890] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7859.608903] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7859.608917] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7859.608930] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7860.948007] mt635x_auxadc_read_raw: 4 callbacks suppressed
+[ 7860.948030] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5ce, adc_result=653
+[ 7860.951307] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7860.952274] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d5, adc_result=656
+[ 7861.142353] [CH3_DBG] bat_cur = 2384
+[ 7861.142757] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bd, adc_result=616
+[ 7861.374342] usb_state<CONFIGURED>
+[ 7861.801868] [CH3_DBG] bat_cur = 2395
+[ 7861.802303] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b9, adc_result=612
+[ 7861.819514] vbat_out_old=38890, vthr=684, T_curr=396, vbat_out=38925
+[ 7861.821196] vbat_out_old=38890, vthr=684, T_curr=396, vbat_out=38925
+[ 7861.821212] [PBM] [ma_to_mw] 3893(mV) * 2539(mA) = 9884(mW)
+[ 7861.821251] [DLPT_final] 2539,28,28,1,5500
+[ 7862.286586] [name:bc&]tick broadcast enter counter cpu: 516, 477, 359, 355, 73, 1, 1, 2, success counter cpu: 75, 68, 34, 17, 16, 0, 0, 1, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 120, 119, 71, 70, 31, 0, 1, 1, o: 0,2-7, p: , f: , t:  7862301718413, 7862294885586, 7862574088115, 7862574041191, 7877786037274, 7877786037504, 7877786047812, 7877786032197,
+[ 7863.934563] [Hang_Detect] hang_detect thread counts down 2147483647:2147483647, status 0.
+[ 7863.934796] mt635x_auxadc_read_raw: 2 callbacks suppressed
+[ 7863.934813] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7863.934848] [Hang_Detect] system_server found pid:1540.
+[ 7863.937577] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7863.937611] [mcdi]mcdi cpu: 519, 471, 333, 367, 103, 0, 0, 0, cluster : 288, 103, pause = 292, multi core = 351, latency = 0, residency = 14, last core = 656, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7866.068644] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7866.069237] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d5, adc_result=656
+[ 7866.069632] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7866.494418] usb_state<CONFIGURED>
+[ 7866.921619] [CH3_DBG] bat_cur = 2582
+[ 7866.922028] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b9, adc_result=612
+[ 7867.287279] [name:bc&]tick broadcast enter counter cpu: 528, 468, 342, 323, 97, 1, 1, 1, success counter cpu: 101, 73, 48, 14, 18, 0, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 141, 103, 78, 39, 42, 0, 0, 0, o: 0,2-7, p: , f: , t:  7867315879935, 7867576067461, 7867575780461, 7867575452769, 7877786037274, 7877786037504, 7877786047812, 7877786032197,
+[ 7868.372803] [name:spm&]Power/swap CNT(soidle,rgidle): [0] = (22096,0), [1] = (21394,0), [2] = (20206,0), [3] = (21832,0), [4] = (169,0), [5] = (200,0), [6] = (169,0), [7] = (301,0), 
+[ 7868.372831] [name:spm&]Power/swap soidle_block_cnt: [by_frm] = 0, [by_cpu] = 0, [by_srr] = 1684, [by_ufs] = 0, [by_tee] = 0, [by_clk] = 5, [by_dcs] = 0, [by_dis] = 0, [by_pwm] = 0, [by_pll] = 0, [by_boot] = 0, 
+[ 7868.372841] [name:spm&]Power/swap soidle_block_mask: 0x00040000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 7868.372846] [name:spm&][resource_req_block] user: 0x4, 0x0
+[ 7868.952580] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7868.952663] [mcdi]mcdi cpu: 518, 474, 365, 316, 77, 1, 1, 1, cluster : 285, 76, pause = 275, multi core = 361, latency = 0, residency = 11, last core = 647, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7869.055121] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7869.600873] mtk_charger_alarm_timer_func: not suspend, wake up charger
+[ 7869.602688] [MDRT_ADC] OLD = 0x2e6d, NOW = 0x2e77, CNT = 0
+[ 7869.603075] vbat_out_old=38900, vthr=684, T_curr=396, vbat_out=38935
+[ 7869.603100] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c3a, adc_result=3894
+[ 7869.603459] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x454, adc_result=486
+[ 7869.603677] [CH3_DBG] bat_cur = 2521
+[ 7869.604034] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bc, adc_result=615
+[ 7869.604334] Vbat=3894,Ibat=2567,I=0,VChr=4598,T=36,Soc=35:28,CT:2:2 hv:1 pd:0:0
+[ 7869.604350] mtk_charger_start_timer: alarm timer start:12724 941059474
+[ 7869.604363] alarmtimer_enqueue, 12724941059474
+[ 7869.604588] [CH3_DBG] bat_cur = 2567
+[ 7869.604959] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bb, adc_result=614
+[ 7869.605791] [mmi_charger_check_status]batt=3757 mV, 256 mA, 36 C, USB= 4598 mV
+[ 7869.605808] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7869.605818] [mmi_charger_check_status]Step State = MAX
+[ 7869.605830] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7869.606534] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7869.606549] mtk_switch_charging_run [1 0], timer=20
+[ 7869.606754] [CH3_DBG] bat_cur = 2502
+[ 7869.607478] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7869.607509] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7869.607527] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7869.607916] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7869.608359] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7869.608848] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7869.609168] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7869.609479] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7869.609788] rt9471 5-0053: __rt9471_kick_wdt
+[ 7869.611500] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7869.611515] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7869.611529] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7869.611542] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7869.611555] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7871.143359] [CH3_DBG] bat_cur = 2559
+[ 7871.143763] mt635x_auxadc_read_raw: 4 callbacks suppressed
+[ 7871.143781] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bb, adc_result=614
+[ 7871.188086] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d5, adc_result=656
+[ 7871.189083] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7871.189688] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7871.560520] [read_boot_battery_plug_out_status] rtc_invalid 0 plugout 0 bat_plug_out_time 0 sp3:0x9b pl:1 1
+[ 7871.562763] vbat_out_old=38900, vthr=684, T_curr=396, vbat_out=38935
+[ 7871.562789] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c3b, adc_result=3894
+[ 7871.563354] [CH3_DBG] bat_cur = 2593
+[ 7871.563914] lbat 0 0 0 0
+[ 7871.563936] car[1596,1785,1395,1633,1377, cycle_car:1576,ncar:1455] c:1 2479 vbat:3894 vbus:4607 soc:35 28 gm3:0 0 0 0
+[ 7871.564243] tmp:36 65535 65535 hcar2:43 lcar2:234 time:12716 sw_iavg:531 2267 1 nafg_m:10 0 0
+[ 7871.564300] GM3log-nint-nafg 12716 7871 37939 38922 107014 10 -14
+[ 7871.564516] MTK_FG: get_kernel_cmd:1 0
+[ 7871.566226] vbat_out_old=38870, vthr=684, T_curr=396, vbat_out=38905
+[ 7871.567051] [FGADC_intr_end][FG_INTR_INIT][read_fg_hw_info] curr_1 2521 curr_2 2506 Iavg 2267 sign 0 car 1596 ncar -4644 time 21176
+[ 7871.567800] [FGADC_intr_end][FG_INTR_INIT][read_fg_hw_info] curr_1 2506 curr_2 2506 Iavg 2267 sign 0 car 1596 ncar -4644 time 21176
+[ 7871.569169] [CH3_DBG] bat_cur = 2452
+[ 7871.571537] vbat_out_old=38890, vthr=684, T_curr=396, vbat_out=38925
+[ 7871.571790] [CH3_DBG] bat_cur = 2399
+[ 7871.572438] MTK_FG: [dod_init_result]HW(38973, 5554) SW(38973, 5554) OLD(39337, 5875) VBAT(38908, 5492) OldCAR(c:2805 v:8107) con0(5900)\x0a[dod_init_result]NVRAM_ready 1 Embedded 1 plug_out 0 is_hwocv_unreliable 0 rtc_invalid 0 rtc_ui_soc 2700 two_sec_reboot 0 old_data.ui_soc 2655, nv_fail(0)\x0a[dod_init_result]T_new 37 T_old 36 T_d0 37 shutdown_time 0 pmic_shutdown_time 1800 plugout_time 0 plugout_time_th 32 swocv_oldocv_diff_emb 1000\x0a[dod_init_result]ocv[boot:39017 final:39337 diff:320] thr[10000 10000 10000] tmp[now 37 5] v[lk_v:38908 cur:35620] lk_i:-457 lk_r:2390,i*r:109,old_soc:5875\x0a[dod_init_result] <9> 36844 39337 2666 0 0 0 0\x0a[dod_init_result] fg_c_d0(36844, 912) fg_v_d0(39337, 5876) ui_d0_soc 2666 ui_soc_opt 0 car_v:45 _car:45\x0a[dod_init_result] force_vc_mode 0 vc_mode 0 d0_sel 0\x0a[dod_init1] swocv:38973 5554 hwocv:38973 5554 tmp:37 embedded:1 bat_plugout:0 chr:1 hwocvR:0 vbat:38908 i:-457 r:2390 \x0a[dod_init1] mode:0 fgc_ocv:36844:912 fgv_ocv:39337:5876 soc:5887,1639,5887 uisoc:-1000
+[ 7871.572555] MTK_FG: {FGADC}soc:3477 fg_c_soc:1317 fg_v_soc:3477 ui_soc:2843 vc_diff:-2160 vc_mode 0 VBAT 38930 T:[36 V 36 C 37] D0_C 912 D0_V 5878 CAR[c:1590 v:-9409]Q:[39173 39173 39173 39173] aging 10000 bat_cycle 1001 Trk[0:0:0] UI[0:0] Chr[1:0:0] pseudo1 -9 DC_ratio 100 vboot:34384 34377 dod_init[9]
+[ 7871.641056] usb_state<CONFIGURED>
+[ 7871.846182] vbat_out_old=38880, vthr=684, T_curr=396, vbat_out=38915
+[ 7871.847867] vbat_out_old=38870, vthr=684, T_curr=396, vbat_out=38905
+[ 7871.847883] [PBM] [ma_to_mw] 3891(mV) * 2536(mA) = 9867(mW)
+[ 7871.847923] [DLPT_final] 2536,28,28,1,5500
+[ 7872.041388] [CH3_DBG] bat_cur = 2445
+[ 7872.291259] [name:bc&]tick broadcast enter counter cpu: 486, 473, 379, 330, 111, 20, 20, 20, success counter cpu: 89, 82, 33, 32, 24, 0, 1, 3, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 127, 118, 58, 50, 41, 0, 0, 0, o: 0,2-7, p: , f: 1, t:  7872399212760, 7872299453798, 7872475879419, 7872315879435, 7877786037274, 7877786037504, 7877786047812, 7877786032197,
+[ 7873.397038] [name:spm&]Power/swap CNT(dpidle,rgidle): [0] = (663,0), [1] = (725,0), [2] = (517,0), [3] = (311,0), [4] = (24,0), [5] = (2,0), [6] = (0,0), [7] = (2,0), 
+[ 7873.397067] [name:spm&]Power/swap dpidle_block_cnt: [by_frm] = 0, [by_cpu] = 0, [by_srr] = 2812, [by_ufs] = 0, [by_tee] = 0, [by_clk] = 309, [by_dcs] = 0, [by_dis] = 0, [by_pwm] = 0, [by_pll] = 0, [by_boot] = 0, 
+[ 7873.397077] [name:spm&]Power/swap dpidle_block_mask: 0x00040000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 7873.397082] [name:spm&][resource_req_block] user: 0x4, 0x0
+[ 7873.961208] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7873.961292] [mcdi]mcdi cpu: 481, 464, 374, 348, 137, 51, 51, 51, cluster : 263, 137, pause = 231, multi core = 369, latency = 0, residency = 21, last core = 620, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7874.174934] mt635x_auxadc_read_raw: 9 callbacks suppressed
+[ 7874.174957] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x615, adc_result=684
+[ 7875.410435] logd: logdr: UID=10108 GID=10108 PID=7492 n tail=0 logMask=4 pid=0 start=0ns timeout=0ns
+[ 7875.411259] logd: Add, log_reader_count: 2 
+[ 7875.463691] logd: Del, log_reader_count: 1 
+[ 7876.308504] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7876.309077] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7876.310998] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d6, adc_result=656
+[ 7876.761005] usb_state<CONFIGURED>
+[ 7877.161467] [CH3_DBG] bat_cur = 2532
+[ 7877.162968] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7877.294654] [name:bc&]tick broadcast enter counter cpu: 470, 474, 318, 375, 137, 64, 61, 60, success counter cpu: 67, 96, 44, 44, 39, 2, 0, 2, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 126, 128, 43, 74, 54, 3, 0, 0, o: 0,2-7, p: , f: , t:  7877482545585, 7877302967279, 7877382545595, 7877578580000, 7877786037274, 7877786037504, 7877786047812, 7877786032197,
+[ 7877.703636] [wdk-c] cpu=3,lbit=0x8,cbit=0xff,7,1,7810614402424,[7877703611353,20000000]
+[ 7877.703685] [thread:298][RT:7877703673815] 2021-10-28 21:27:50.794478 UTC;android time 2021-10-28 18:27:50.794478
+[ 7877.740040] [wdk-c] cpu=0,lbit=0x9,cbit=0xff,7,1,7810614402424,[7877740013738,19963597]
+[ 7877.764303] [wdk-c] cpu=1,lbit=0xb,cbit=0xff,7,1,7810614402424,[7877764294430,19939315]
+[ 7877.777627] [wdk-c] cpu=4,lbit=0x1b,cbit=0xff,7,1,7810614402424,[7877777607815,19926003]
+[ 7877.777643] [wdk-c] cpu=2,lbit=0x1f,cbit=0xff,7,1,7810614402424,[7877777623738,19925986]
+[ 7877.778414] [wdk-c] cpu=7,lbit=0x9f,cbit=0xff,7,1,7810614402424,[7877778403353,19925207]
+[ 7877.778551] [wdk-c] cpu=5,lbit=0xbf,cbit=0xff,7,1,7810614402424,[7877778543815,19925066]
+[ 7877.778616] [wdk-k] cpu=6,lbit=0xff,cbit=0xff,7,1,7810614402424,[7877778606046,19925004]
+[ 7878.417252] [name:spm&]Power/swap CNT(soidle3,rgidle): [0] = (0,0), [1] = (0,0), [2] = (0,0), [3] = (0,0), [4] = (0,0), [5] = (0,0), [6] = (0,0), [7] = (0,0), 
+[ 7878.417281] [name:spm&]Power/swap soidle3_block_cnt: [by_frm] = 0, [by_cpu] = 0, [by_srr] = 1653, [by_ufs] = 0, [by_tee] = 0, [by_clk] = 0, [by_dcs] = 0, [by_dis] = 0, [by_pwm] = 0, [by_pll] = 0, [by_boot] = 0, 
+[ 7878.417292] [name:spm&]Power/swap soidle3_block_mask: 0x00040000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 7878.417297] [name:spm&][resource_req_block] user: 0x4, 0x0
+[ 7878.965821] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7878.965906] [mcdi]mcdi cpu: 480, 486, 305, 358, 120, 34, 31, 30, cluster : 260, 120, pause = 236, multi core = 378, latency = 0, residency = 15, last core = 628, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7879.294919] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7879.604373] mtk_charger_alarm_timer_func: not suspend, wake up charger
+[ 7879.606425] [MDRT_ADC] OLD = 0x2e77, NOW = 0x2e7f, CNT = 0
+[ 7879.606800] vbat_out_old=38850, vthr=684, T_curr=396, vbat_out=38885
+[ 7879.606825] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c1a, adc_result=3889
+[ 7879.607183] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x454, adc_result=486
+[ 7879.607404] [CH3_DBG] bat_cur = 2559
+[ 7879.607760] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bc, adc_result=615
+[ 7879.608011] Vbat=3889,Ibat=2525,I=0,VChr=4598,T=36,Soc=35:28,CT:2:2 hv:1 pd:0:0
+[ 7879.608027] mtk_charger_start_timer: alarm timer start:12734 944737321
+[ 7879.608039] alarmtimer_enqueue, 12734944737321
+[ 7879.608286] [CH3_DBG] bat_cur = 2540
+[ 7879.608642] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bd, adc_result=616
+[ 7879.609483] [mmi_charger_check_status]batt=3757 mV, 254 mA, 36 C, USB= 4598 mV
+[ 7879.609499] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7879.609509] [mmi_charger_check_status]Step State = MAX
+[ 7879.609522] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7879.610457] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7879.610472] mtk_switch_charging_run [1 0], timer=30
+[ 7879.610694] [CH3_DBG] bat_cur = 2288
+[ 7879.611250] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7879.611281] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7879.611299] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7879.611953] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7879.612552] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7879.613158] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7879.613756] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7879.614352] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7879.614950] rt9471 5-0053: __rt9471_kick_wdt
+[ 7879.617759] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7879.617774] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7879.617788] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7879.617801] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7879.617813] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7881.144423] [CH3_DBG] bat_cur = 2513
+[ 7881.144817] mt635x_auxadc_read_raw: 4 callbacks suppressed
+[ 7881.144834] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b9, adc_result=612
+[ 7881.428037] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7881.428504] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d6, adc_result=656
+[ 7881.428916] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7881.860934] usb_state<CONFIGURED>
+[ 7881.862677] vbat_out_old=38850, vthr=684, T_curr=396, vbat_out=38885
+[ 7881.862704] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c1c, adc_result=3889
+[ 7881.864379] vbat_out_old=38890, vthr=684, T_curr=396, vbat_out=38925
+[ 7881.864393] [PBM] [ma_to_mw] 3893(mV) * 2526(mA) = 9833(mW)
+[ 7881.864430] [DLPT_final] 2526,28,28,1,5500
+[ 7882.281567] [CH3_DBG] bat_cur = 2517
+[ 7882.281965] mt635x_auxadc_read_raw: 1 callbacks suppressed
+[ 7882.281983] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b8, adc_result=611
+[ 7882.298781] [name:bc&]tick broadcast enter counter cpu: 476, 510, 360, 344, 119, 35, 34, 34, success counter cpu: 63, 105, 30, 27, 25, 0, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 113, 132, 80, 52, 43, 1, 0, 1, o: 0-1,3-7, p: , f: 2, t:  7882561126854, 7882580231501, 7882306659587, 7882344449111, 7897811995737, 7897811968737, 7897811965121, 7897811979660,
+[ 7883.971299] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7883.971383] [mcdi]mcdi cpu: 472, 509, 380, 345, 141, 67, 64, 64, cluster : 268, 141, pause = 253, multi core = 389, latency = 0, residency = 19, last core = 661, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7884.414699] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7886.548146] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7886.548733] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7886.549696] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d5, adc_result=656
+[ 7886.984266] usb_state<CONFIGURED>
+[ 7887.299695] [name:bc&]tick broadcast enter counter cpu: 474, 472, 367, 321, 164, 95, 93, 93, success counter cpu: 83, 83, 42, 29, 36, 4, 6, 1, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 124, 131, 81, 40, 50, 2, 0, 0, o: 0,2-3,5-7, p: , f: , t:  7887309211269, 7887409211259, 7887445877922, 7887409211259, 7887308057587, 7897811968737, 7897811965121, 7897811979660,
+[ 7887.401511] [CH3_DBG] bat_cur = 2532
+[ 7887.401933] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bb, adc_result=614
+[ 7888.973832] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7888.973916] [mcdi]mcdi cpu: 449, 465, 356, 315, 162, 94, 94, 94, cluster : 236, 158, pause = 182, multi core = 409, latency = 0, residency = 14, last core = 605, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7889.534872] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7889.608065] mtk_charger_alarm_timer_func: not suspend, wake up charger
+[ 7889.609864] [MDRT_ADC] OLD = 0x2e7f, NOW = 0x2e82, CNT = 0
+[ 7889.610250] vbat_out_old=38930, vthr=684, T_curr=396, vbat_out=38965
+[ 7889.610274] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c48, adc_result=3897
+[ 7889.610685] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x454, adc_result=486
+[ 7889.611026] [CH3_DBG] bat_cur = 2578
+[ 7889.611384] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7889.611661] Vbat=3897,Ibat=2578,I=0,VChr=4598,T=36,Soc=35:28,CT:2:2 hv:1 pd:0:0
+[ 7889.611677] mtk_charger_start_timer: alarm timer start:12744 948388399
+[ 7889.611690] alarmtimer_enqueue, 12744948388399
+[ 7889.611941] [CH3_DBG] bat_cur = 2578
+[ 7889.612296] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bb, adc_result=614
+[ 7889.613155] [mmi_charger_check_status]batt=3757 mV, 253 mA, 36 C, USB= 4607 mV
+[ 7889.613172] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7889.613182] [mmi_charger_check_status]Step State = MAX
+[ 7889.613194] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7889.613919] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7889.613934] mtk_switch_charging_run [1 0], timer=40
+[ 7889.614168] [CH3_DBG] bat_cur = 2353
+[ 7889.615459] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7889.615489] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7889.615509] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7889.616102] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7889.616533] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7889.617008] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7889.617603] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7889.617919] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7889.618229] rt9471 5-0053: __rt9471_kick_wdt
+[ 7889.619907] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7889.619922] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7889.619936] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7889.619948] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7889.619961] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7891.145672] [CH3_DBG] bat_cur = 2540
+[ 7891.146071] mt635x_auxadc_read_raw: 4 callbacks suppressed
+[ 7891.146089] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b8, adc_result=611
+[ 7891.668326] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7891.668901] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d6, adc_result=656
+[ 7891.669869] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7891.916009] vbat_out_old=38930, vthr=684, T_curr=396, vbat_out=38965
+[ 7891.916057] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c4a, adc_result=3897
+[ 7891.917716] vbat_out_old=38930, vthr=684, T_curr=396, vbat_out=38965
+[ 7891.917731] [PBM] [ma_to_mw] 3897(mV) * 2552(mA) = 9945(mW)
+[ 7891.917770] [DLPT_final] 2552,28,28,1,5500
+[ 7892.127639] usb_state<CONFIGURED>
+[ 7892.302141] [name:bc&]tick broadcast enter counter cpu: 456, 490, 360, 287, 119, 34, 34, 34, success counter cpu: 112, 66, 24, 23, 31, 1, 4, 1, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 156, 99, 42, 41, 45, 0, 0, 0, o: 0,2-7, p: , f: , t:  7892338455419, 7892310446587, 7892529210747, 7892583149579, 7897811995737, 7897811968737, 7897811965121, 7897811979660,
+[ 7892.521277] [CH3_DBG] bat_cur = 2460
+[ 7892.521772] mt635x_auxadc_read_raw: 1 callbacks suppressed
+[ 7892.521789] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7893.974084] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7893.974164] [mcdi]mcdi cpu: 490, 508, 381, 273, 99, 2, 2, 2, cluster : 284, 97, pause = 279, multi core = 380, latency = 0, residency = 12, last core = 671, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7894.654388] [Hang_Detect] hang_detect thread counts down 2147483647:2147483647, status 0.
+[ 7894.654675] [Hang_Detect] system_server found pid:1540.
+[ 7894.655216] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7896.788075] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7896.788521] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d6, adc_result=656
+[ 7896.788918] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7897.214382] usb_state<CONFIGURED>
+[ 7897.303375] [name:bc&]tick broadcast enter counter cpu: 490, 516, 326, 343, 100, 7, 2, 2, success counter cpu: 72, 112, 28, 17, 29, 1, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 109, 146, 59, 51, 47, 3, 0, 0, o: 3-7, p: , f: , t:  7897583544464, 7897409210259, 7897583545310, 7897314511301, 7897811995737, 7897811968737, 7897811965121, 7897811979660,
+[ 7897.641544] [CH3_DBG] bat_cur = 2593
+[ 7897.642016] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bb, adc_result=614
+[ 7897.708235] [wdk-c] cpu=3,lbit=0x8,cbit=0xff,7,1,7810614402424,[7897708209324,20000000]
+[ 7897.708283] [thread:298][RT:7897708271324] 2021-10-28 21:28:10.799077 UTC;android time 2021-10-28 18:28:10.799077
+[ 7897.709987] [wdk-c] cpu=1,lbit=0xa,cbit=0xff,7,1,7810614402424,[7897709978939,19998229]
+[ 7897.727074] [wdk-c] cpu=2,lbit=0xe,cbit=0xff,7,1,7810614402424,[7897727049247,19981159]
+[ 7897.763225] [wdk-c] cpu=0,lbit=0xf,cbit=0xff,7,1,7810614402424,[7897763198939,19945010]
+[ 7897.780969] [wdk-c] cpu=4,lbit=0x1f,cbit=0xff,7,1,7810614402424,[7897780950939,19927257]
+[ 7897.803988] [wdk-c] cpu=6,lbit=0x5f,cbit=0xff,7,1,7810614402424,[7897803968016,19904240]
+[ 7897.804051] [wdk-c] cpu=5,lbit=0x7f,cbit=0xff,7,1,7810614402424,[7897804044709,19904163]
+[ 7897.804122] [wdk-k] cpu=7,lbit=0xff,cbit=0xff,7,1,7810614402424,[7897804112016,19904096]
+[ 7898.435954] [name:spm&]Power/swap CNT(soidle,rgidle): [0] = (22096,0), [1] = (21394,0), [2] = (20206,0), [3] = (21832,0), [4] = (169,0), [5] = (200,0), [6] = (169,0), [7] = (301,0), 
+[ 7898.435985] [name:spm&]Power/swap soidle_block_cnt: [by_frm] = 0, [by_cpu] = 0, [by_srr] = 1449, [by_ufs] = 0, [by_tee] = 0, [by_clk] = 0, [by_dcs] = 0, [by_dis] = 0, [by_pwm] = 0, [by_pll] = 0, [by_boot] = 0, 
+[ 7898.435995] [name:spm&]Power/swap soidle_block_mask: 0x00040000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 7898.435999] [name:spm&][resource_req_block] user: 0x4, 0x0
+[ 7898.982392] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7898.982476] [mcdi]mcdi cpu: 488, 499, 308, 360, 84, 8, 3, 3, cluster : 280, 88, pause = 270, multi core = 395, latency = 0, residency = 18, last core = 683, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7899.493511] alarmtimer_enqueue, 12804829738000
+[ 7899.496169] healthd: battery l=28 v=3757 t=36.1 h=2 st=2 c=250 fc=3925000 cc=1001 chg=u
+[ 7899.611695] mtk_charger_alarm_timer_func: not suspend, wake up charger
+[ 7899.613325] [MDRT_ADC] OLD = 0x2e82, NOW = 0x2e86, CNT = 0
+[ 7899.613699] vbat_out_old=38970, vthr=684, T_curr=396, vbat_out=39005
+[ 7899.613724] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c60, adc_result=3901
+[ 7899.614107] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x455, adc_result=487
+[ 7899.614346] [CH3_DBG] bat_cur = 2521
+[ 7899.614705] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7899.614949] Vbat=3901,Ibat=2616,I=0,VChr=4607,T=36,Soc=35:28,CT:2:2 hv:1 pd:0:0
+[ 7899.614966] mtk_charger_start_timer: alarm timer start:12754 951677708
+[ 7899.614978] alarmtimer_enqueue, 12754951677708
+[ 7899.615200] [CH3_DBG] bat_cur = 2521
+[ 7899.615554] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7899.616371] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x455, adc_result=487
+[ 7899.616387] [mmi_charger_check_status]batt=3757 mV, 233 mA, 36 C, USB= 4607 mV
+[ 7899.616402] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7899.616411] [mmi_charger_check_status]Step State = MAX
+[ 7899.616424] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7899.617144] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7899.617159] mtk_switch_charging_run [1 0], timer=50
+[ 7899.617400] [CH3_DBG] bat_cur = 2338
+[ 7899.617990] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7899.618020] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7899.618039] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7899.618401] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7899.618712] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7899.619023] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7899.619340] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7899.619648] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7899.619957] rt9471 5-0053: __rt9471_kick_wdt
+[ 7899.621652] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7899.621667] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7899.621680] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7899.621693] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7899.621705] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7901.146643] [CH3_DBG] bat_cur = 2540
+[ 7901.147036] mt635x_auxadc_read_raw: 4 callbacks suppressed
+[ 7901.147054] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7901.908324] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d6, adc_result=656
+[ 7901.908892] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7901.909838] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7902.156232] vbat_out_old=38920, vthr=684, T_curr=396, vbat_out=38955
+[ 7902.156279] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c45, adc_result=3896
+[ 7902.157943] vbat_out_old=38970, vthr=684, T_curr=396, vbat_out=39005
+[ 7902.157959] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c63, adc_result=3901
+[ 7902.157973] [PBM] [ma_to_mw] 3901(mV) * 2548(mA) = 9939(mW)
+[ 7902.158015] [DLPT_final] 2548,28,28,1,5500
+[ 7902.315257] [name:bc&]tick broadcast enter counter cpu: 506, 488, 360, 318, 86, 1, 1, 1, success counter cpu: 104, 82, 19, 20, 23, 0, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 148, 115, 43, 51, 36, 0, 1, 0, o: 0,2-7, p: , f: , t:  7902584519503, 7902323580587, 7902336082880, 7902584610041, 7917816596431, 7917816568356, 7917816597741, 7917816565125,
+[ 7902.668549] usb_state<CONFIGURED>
+[ 7902.761589] [CH3_DBG] bat_cur = 2578
+[ 7902.761995] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7903.444876] [name:spm&]Power/swap CNT(dpidle,rgidle): [0] = (663,0), [1] = (725,0), [2] = (517,0), [3] = (311,0), [4] = (24,0), [5] = (2,0), [6] = (0,0), [7] = (2,0), 
+[ 7903.444905] [name:spm&]Power/swap dpidle_block_cnt: [by_frm] = 0, [by_cpu] = 0, [by_srr] = 1481, [by_ufs] = 0, [by_tee] = 0, [by_clk] = 0, [by_dcs] = 0, [by_dis] = 0, [by_pwm] = 0, [by_pll] = 0, [by_boot] = 0, 
+[ 7903.444916] [name:spm&]Power/swap dpidle_block_mask: 0x00040000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 7903.444921] [name:spm&][resource_req_block] user: 0x4, 0x0
+[ 7903.987416] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7903.987502] [mcdi]mcdi cpu: 492, 491, 356, 315, 85, 1, 1, 1, cluster : 274, 85, pause = 273, multi core = 362, latency = 0, residency = 14, last core = 649, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7904.894717] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7907.028177] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7907.028758] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5cf, adc_result=653
+[ 7907.029149] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d6, adc_result=656
+[ 7907.316420] [name:bc&]tick broadcast enter counter cpu: 513, 511, 375, 329, 76, 1, 1, 1, success counter cpu: 98, 75, 20, 26, 15, 0, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 136, 113, 77, 48, 28, 0, 0, 0, o: 1-7, p: , f: , t:  7907586226542, 7907372542596, 7907365643538, 7907586286388, 7917816596431, 7917816568356, 7917816597741, 7917816565125,
+[ 7907.881362] usb_state<CONFIGURED>
+[ 7907.881565] [CH3_DBG] bat_cur = 2582
+[ 7907.881984] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bc, adc_result=615
+[ 7908.453518] [name:spm&]Power/swap CNT(soidle3,rgidle): [0] = (0,0), [1] = (0,0), [2] = (0,0), [3] = (0,0), [4] = (0,0), [5] = (0,0), [6] = (0,0), [7] = (0,0), 
+[ 7908.453550] [name:spm&]Power/swap soidle3_block_cnt: [by_frm] = 0, [by_cpu] = 0, [by_srr] = 1534, [by_ufs] = 0, [by_tee] = 0, [by_clk] = 0, [by_dcs] = 0, [by_dis] = 0, [by_pwm] = 0, [by_pll] = 0, [by_boot] = 0, 
+[ 7908.453561] [name:spm&]Power/swap soidle3_block_mask: 0x00040000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[ 7908.453565] [name:spm&][resource_req_block] user: 0x4, 0x0
+[ 7908.988426] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7908.988504] [mcdi]mcdi cpu: 517, 500, 372, 339, 63, 0, 0, 0, cluster : 286, 62, pause = 285, multi core = 387, latency = 0, residency = 6, last core = 678, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7909.614980] mtk_charger_alarm_timer_func: not suspend, wake up charger
+[ 7909.616619] [MDRT_ADC] OLD = 0x2e86, NOW = 0x2e87, CNT = 0
+[ 7909.616980] vbat_out_old=38980, vthr=684, T_curr=396, vbat_out=39015
+[ 7909.617006] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c6b, adc_result=3902
+[ 7909.617367] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x454, adc_result=486
+[ 7909.617625] [CH3_DBG] bat_cur = 2559
+[ 7909.617984] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b9, adc_result=612
+[ 7909.618247] Vbat=3902,Ibat=2578,I=0,VChr=4598,T=36,Soc=35:28,CT:2:2 hv:1 pd:0:0
+[ 7909.618264] mtk_charger_start_timer: alarm timer start:12764 954976632
+[ 7909.618276] alarmtimer_enqueue, 12764954976632
+[ 7909.618525] [CH3_DBG] bat_cur = 2494
+[ 7909.618878] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2b9, adc_result=612
+[ 7909.619773] mt635x-auxadc mt635x-auxadc: name:VCDT, channel=2, adc_out=0x455, adc_result=487
+[ 7909.619788] [mmi_charger_check_status]batt=3757 mV, 249 mA, 36 C, USB= 4607 mV
+[ 7909.619803] [mmi_charger_check_status]FV 4200 mV, FCC 3600 mA
+[ 7909.619813] [mmi_charger_check_status]Step State = MAX
+[ 7909.619825] [mmi_charger_check_status]EFFECTIVE: FV = 4200000, CDIS = 0, FCC = 3600000, USBICL = 1500000, DEMO_DISCHARG = 0
+[ 7909.620537] tmp:36 (jeita:0 sm:0 cv:0 en:0) (sm:1) en:1 c:0 s:0 ov:0 1 1
+[ 7909.620552] mtk_switch_charging_run [1 0], timer=60
+[ 7909.620779] [CH3_DBG] bat_cur = 2498
+[ 7909.621493] pe40_ready:0 hv:1 thermal:-1,-1 tmp:36,39,16 pps:0 en:0 ibus:0 80
+[ 7909.621523] force:0 thermal:-1,-1 pe4:-1,-1,0 setting:1500 3600 type:2 usb_unlimited:0 usbif:0 usbsm:0 aicl:-1 atm:0
+[ 7909.621542] rt9471 5-0053: __rt9471_set_aicr aicr = 1500000(0x1E)
+[ 7909.622200] rt9471 5-0053: __rt9471_set_ichg ichg = 3600000(0x3F)
+[ 7909.622791] rt9471 5-0053: __rt9471_enable_hz en = 0
+[ 7909.623395] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7909.624011] rt9471 5-0053: __rt9471_set_cv cv = 4200000(0x1E)
+[ 7909.624588] rt9471 5-0053: __rt9471_enable_chg en = 1
+[ 7909.625196] rt9471 5-0053: __rt9471_kick_wdt
+[ 7909.627596] rt9471 5-0053: __rt9471_dump_registers ICHG = 3150mA, AICR = 1500mA, MIVR = 4600mV
+[ 7909.627612] rt9471 5-0053: __rt9471_dump_registers IEOC = 150mA, CV = 4200mV
+[ 7909.627626] rt9471 5-0053: __rt9471_dump_registers CHG_EN = 1, IC_STAT = fast-charge
+[ 7909.627639] rt9471 5-0053: __rt9471_dump_registers STAT0 = 0xC0, STAT1 = 0x80
+[ 7909.627652] rt9471 5-0053: __rt9471_dump_registers STAT2 = 0x00, STAT3 = 0x00
+[ 7911.147799] [CH3_DBG] bat_cur = 2540
+[ 7911.148194] mt635x_auxadc_read_raw: 4 callbacks suppressed
+[ 7911.148211] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7912.148059] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5d0, adc_result=653
+[ 7912.148632] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d6, adc_result=656
+[ 7912.149024] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7912.321327] [name:bc&]tick broadcast enter counter cpu: 515, 498, 355, 330, 81, 0, 0, 0, success counter cpu: 110, 99, 26, 18, 20, 0, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 135, 125, 55, 36, 35, 0, 0, 0, o: 0,2-7, p: , f: , t:  7912587624273, 7912329629587, 7912587942888, 7917816635654, 7917816596431, 7917816568356, 7917816597741, 7917816565125,
+[ 7912.429363] vbat_out_old=38970, vthr=684, T_curr=396, vbat_out=39005
+[ 7912.429410] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c65, adc_result=3901
+[ 7912.431069] vbat_out_old=38990, vthr=684, T_curr=396, vbat_out=39025
+[ 7912.431086] mt635x-auxadc mt635x-auxadc: name:BATADC, channel=0, adc_out=0x5c70, adc_result=3903
+[ 7912.431099] [PBM] [ma_to_mw] 3903(mV) * 2565(mA) = 10011(mW)
+[ 7912.431141] [DLPT_final] 2565,28,28,1,5500
+[ 7913.001257] [CH3_DBG] bat_cur = 2361
+[ 7913.001668] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2ba, adc_result=613
+[ 7913.211044] usb_state<CONFIGURED>
+[ 7913.989662] [name:spm&]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[ 7913.989739] [mcdi]mcdi cpu: 504, 473, 366, 332, 81, 0, 0, 0, cluster : 278, 81, pause = 290, multi core = 399, latency = 0, residency = 14, last core = 703, avail cpu = 00ff, cluster = 0003, enabled = 1, max_s_state = 5, system_idle_hint = 00000000
+[ 7915.134931] mt635x-auxadc mt635x-auxadc: name:CHIP_TEMP, channel=4, adc_out=0x616, adc_result=684
+[ 7917.268113] mt635x-auxadc mt635x-auxadc: name:VGPU_TEMP, channel=4, adc_out=0x5d3, adc_result=655
+[ 7917.268517] mt635x-auxadc mt635x-auxadc: name:VCORE_TEMP, channel=4, adc_out=0x5d0, adc_result=653
+[ 7917.269468] mt635x-auxadc mt635x-auxadc: name:VPROC_TEMP, channel=4, adc_out=0x5d6, adc_result=656
+[ 7917.330648] [name:bc&]tick broadcast enter counter cpu: 499, 481, 331, 368, 79, 2, 2, 2, success counter cpu: 66, 112, 20, 29, 23, 0, 0, 0, fail counter cpu: 0, 0, 0, 0, 0, 0, 0, 0, interrupt counter cpu: 104, 145, 60, 63, 32, 0, 0, 0, o: 0,2-7, p: , f: , t:  7917588655004, 7917338939586, 7917364684153, 7917339208266, 7917816596431, 7917816568356, 7917816597741, 7917816565125,
+[ 7917.719765] [wdk-c] cpu=4,lbit=0x10,cbit=0xff,7,1,7810614402424,[7917719746756,20000000]
+[ 7917.719805] [thread:299][RT:7917719796141] 2021-10-28 21:28:30.810605 UTC;android time 2021-10-28 18:28:30.810605
+[ 7917.737822] [wdk-c] cpu=2,lbit=0x14,cbit=0xff,7,1,7810614402424,[7917737797218,19981949]
+[ 7917.773331] [wdk-c] cpu=0,lbit=0x15,cbit=0xff,7,1,7810614402424,[7917773305756,19946441]
+[ 7917.808325] [wdk-c] cpu=7,lbit=0x95,cbit=0xff,7,1,7810614402424,[7917808306295,19911440]
+[ 7917.808592] [wdk-c] cpu=5,lbit=0xb5,cbit=0xff,7,1,7810614402424,[7917808585526,19911160]
+[ 7917.808787] [wdk-c] cpu=6,lbit=0xf5,cbit=0xff,7,1,7810614402424,[7917808780603,19910965]
+[ 7917.808904] [wdk-c] cpu=3,lbit=0xfd,cbit=0xff,7,1,7810614402424,[7917808888526,19910858]
+[ 7917.808963] [wdk-k] cpu=1,lbit=0xff,cbit=0xff,7,1,7810614402424,[7917808952064,19910794]
+[ 7918.121793] [CH3_DBG] bat_cur = 2555
+[ 7918.122570] BAT_TEMP_PREV:613,BAT_TEMP:614,VBIF28:2806
+[ 7918.122596] mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x2bb, adc_result=614
+[ 7918.337607] usb_state<CONFIGURED>
+[ 7918.467600] update_triggers: group:cd91dac5 t:a6d83360 triggered!
+[ 7918.467667] update_triggers: group:cd91dac5 t:4bbb8b22 triggered!
+[ 7918.467680] psi_trigger_poll: t:a6d83360 triggered!
+[ 7918.467733] psi_trigger_poll: t:4bbb8b22 triggered!
+[ 7918.574283] update_triggers: group:cd91dac5 t:b16a7cce triggered!
+[ 7918.574351] update_triggers: group:cd91dac5 t:5cec889c triggered!
+[ 7918.574365] psi_trigger_poll: t:b16a7cce triggered!
+[ 7918.574391] psi_trigger_poll: t:5cec889c triggered!
