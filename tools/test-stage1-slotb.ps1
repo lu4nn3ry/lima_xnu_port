@@ -2,7 +2,7 @@
 # Script de teste seguro do Stage 1 no Slot B (com rollback automatico e extracao de pstore)
 
 param(
-    [string]$ImagePath = "D:\GitHub\lima_xnu_port\stage1\stage1-boot.img",
+    [string]$ImagePath = "stage1\stage1-boot.img",
     [string]$FastbootExe = "C:\Users\luann\Downloads\platform-tools\fastboot.exe",
     [string]$AdbExe = "C:\Users\luann\Downloads\scrcpy-win64-v3.3.4\adb.exe",
     [string]$DeviceIp = "192.168.0.25:5555"

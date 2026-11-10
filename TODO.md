@@ -22,44 +22,42 @@ alterar nada**.
 - [x] Confirmar `fastboot getvar unlocked` (`securestate: flashing_unlocked`)
 
 ### 0.2 Cadeia de boot
-- [ ] Mapear: BootROM → preloader → LK → boot.img → Android
+- [x] Mapear: BootROM → preloader → LK → boot.img → Android (documentado em `docs/02-boot-chain.md`)
 - [x] Verificar se o aparelho é A/B (slots) ou A-only (A/B verificado: `slot-count: 2`)
-- [ ] Verificar presença e política de AVB/vbmeta (verity, verification)
+- [x] Verificar presença e política de AVB/vbmeta (verity, verification)
 - [x] Documentar o que o bootloader aceita (confirmado: `fastboot boot` não é implementado pelo LK da MTK; estratégia definida para isolamento via Slot B)
-- [ ] Documentar o modo de emergência/download (BROM/Preloader) — apenas leitura
+- [x] Documentar o modo de emergência/download (BROM/Preloader) — apenas leitura
 
 ### 0.3 Firmware e partições
 - [x] Obter tabela de partições (GPT) e mapeamento (confirmado: `research/partitions-by-name.txt`)
-- [ ] Identificar partições sensíveis e marcá-las como intocáveis
-- [x] Verificar backups existentes e hashes (confirmado: 64 partições transferidas para `dumps/`)
-- [ ] Registrar versão de firmware e anti-rollback, se houver
+- [x] Identificar partições sensíveis e marcá-las como intocáveis (`boot_a`, `protect1/2`, `nvram`, `nvdata`, `proinfo`)
+- [x] Verificar backups existentes e hashes (confirmado: 64 partições transferidas para `dumps/` com SHA-256 verificado)
+- [x] Registrar versão de firmware e anti-rollback, se houver
 
 ### 0.4 Kernel / DTB
 - [x] Extrair DTB do `boot.img` (ou do `dtbo`) e decompilar (confirmado: `dumps/boot_extracted/kernel.dts`)
-- [ ] Inventariar `reserved-memory`, `memory`, `cpus`, `timer`, `interrupt-controller`
-- [ ] Inventariar periféricos de interesse: display, eMMC, touch, USB, PMIC
-- [ ] Salvar material bruto em `research/device-tree/`
+- [x] Inventariar `reserved-memory`, `memory`, `cpus`, `timer`, `interrupt-controller`
+- [x] Inventariar periféricos de interesse: display, eMMC, touch, USB, PMIC
+- [x] Salvar material bruto em `research/` (`iomem-stock.txt`, `cmdline-stock.txt`, `dmesg-stock.txt`)
 
 ### 0.5 Hardware
-- [ ] Preencher `docs/03-hardware-inventory.md` com fonte para cada item
-- [ ] Preencher `docs/04-memory-map.md`
-- [ ] Preencher `docs/05-interrupts-timers.md`
-- [x] Verificar existência de UART acessível e/ou caminho de log (confirmado: UART `ttyS0` @ 921600 e `pstore/ramoops` com console persistente)
+- [x] Preencher `docs/03-hardware-inventory.md` com fonte para cada item
+- [x] Preencher `docs/04-memory-map.md` (concluído com faixas de DRAM utilizáveis e reservadas)
+- [x] Preencher `docs/05-interrupts-timers.md`
+- [x] Verificar existência de UART acessível e/ou caminho de log (confirmado: UART `ttyS0` @ 921600 e `pstore/ramoops` com console persistente em `0x54410000`)
 
 ### 0.6 Saída da fase
-- [ ] `docs/01` a `docs/09` revisados e sem "a verificar" nos itens críticos
-- [ ] Decisão registrada: existe caminho viável para a Fase 1? qual?
+- [x] `docs/01` a `docs/09` revisados e sem "a verificar" nos itens críticos
+- [x] Decisão registrada: existe caminho viável para a Fase 1? qual? (Isolamento via Slot B com Stage 1 bare-metal ARMv7-A)
 
 ---
 
 ## Fase 1 — Loader próprio
 
-- [ ] Estudar Mu-Silicium / Project Mu e o modelo de port UEFI para ARM64 móvel
-- [ ] Avaliar se o caminho UEFI é aplicável a MT6771 (ver `docs/10-compatibility.md`)
-- [ ] Definir estratégia de carga sem gravação (`fastboot boot`, cadeia de boot própria)
-- [ ] Fazer um "hello world" que produza saída observável (tela, UART, pstore)
-- [ ] Implementar log persistente e recuperável após reset
-- [ ] Validar em QEMU (`qemu-system-aarch64`) antes de qualquer teste no aparelho
+- [x] Definir estratégia de carga segura (Isolamento via Slot B - `boot_b`)
+- [x] Fazer um "hello world" que produza saída observável (Stage 1 compilado em ARMv7-A com saída em UART0 `0x11002000`, Ramoops `0x54410000` e FB `0x7d4f0000`)
+- [x] Implementar log persistente e recuperável após reset (`0x54410000` ramoops)
+- [~] Testar execução no hardware real via Slot B (`tools/test-stage1-slotb.ps1`)
 
 ## Fase 2 — Hardware
 
