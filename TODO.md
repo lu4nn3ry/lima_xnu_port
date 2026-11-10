@@ -25,7 +25,7 @@ alterar nada**.
 - [ ] Mapear: BootROM → preloader → LK → boot.img → Android
 - [x] Verificar se o aparelho é A/B (slots) ou A-only (A/B verificado: `slot-count: 2`)
 - [ ] Verificar presença e política de AVB/vbmeta (verity, verification)
-- [ ] Documentar o que o bootloader aceita (`fastboot boot`? apenas imagens assinadas?)
+- [x] Documentar o que o bootloader aceita (confirmado: `fastboot boot` não é implementado pelo LK da MTK; estratégia definida para isolamento via Slot B)
 - [ ] Documentar o modo de emergência/download (BROM/Preloader) — apenas leitura
 
 ### 0.3 Firmware e partições

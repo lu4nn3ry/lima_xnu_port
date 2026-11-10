@@ -84,7 +84,8 @@ esteja completo e os hashes conferidos.
 - [x] **O Android deste aparelho é A/B?** Sim, verificado (`slot-count: 2`, `current-slot: a`, partições `_a` e `_b` em `/dev/block/by-name`).
 - [x] **O `boot.img` carrega DTB embutido ou há `dtbo` separado?** Existem partições dedicadas: `boot_a/b`, `dtbo_a/b` e `dtb_a/b`.
 - [x] **O bootloader está desbloqueado?** Sim, verificado (`flashing_unlocked`).
+- [x] **`fastboot boot` funciona neste LK?** Não. Testado empiricamente com `fastboot boot firmware/boot.img` que retornou `(bootloader) command is not implemented!`. O Little Kernel deste aparelho não tem suporte a boot em RAM via fastboot.
+- [x] **Estratégia adotada para a Fase 1:** Isolamento via **Slot B (`boot_b`)**. O Slot A permanece 100% intacto com Android 10 e Magisk root. Qualquer experimento é gravado exclusivamente no `boot_b` e testado com `fastboot --set-active=b`. O retorno ao Android original é garantido via `fastboot --set-active=a`.
 - [ ] O bootloader valida `boot` com AVB em modo enforcing?
-- [ ] `fastboot boot` é aceito com imagem não assinada?
 - [ ] Qual a versão de preloader/LK e se há histórico de compatibilidade?
 - [ ] Existe porta UART acessível no PCB? (impacta diretamente a Fase 1)
