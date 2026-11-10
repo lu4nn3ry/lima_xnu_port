@@ -1,0 +1,6 @@
+﻿total 0
+dr-xr-x--- 2 system log       0 2021-10-28 14:55 .
+drwxr-xr-x 9 root   root      0 2021-10-28 14:55 ..
+-r--r----- 1 system log  262132 2021-10-28 14:55 console-ramoops
+-r--r--r-- 1 root   root   7675 2021-10-28 14:55 console-ramoops-2
+-r--r----- 1 system log    1968 2021-10-28 14:55 pmsg-ramoops-0
