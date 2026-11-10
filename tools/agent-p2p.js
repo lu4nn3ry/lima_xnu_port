@@ -171,9 +171,59 @@ if (cmd === 'wait') {
 
   trySend();
 
+} else if (cmd === 'broadcast') {
+  const from = process.argv[3] || 'AGY';
+  const text = process.argv[4];
+
+  if (!text) {
+    console.error('Uso: node tools/agent-p2p.js broadcast <DE> <MENSAGEM>');
+    process.exit(1);
+  }
+
+  const peersFile = path.join(COORD_DIR, 'peers.json');
+  if (!fs.existsSync(peersFile)) {
+    console.error('Arquivo de peers nao encontrado:', peersFile);
+    process.exit(1);
+  }
+
+  const config = JSON.parse(fs.readFileSync(peersFile, 'utf8'));
+  const peers = (config.peers || []).filter(p => p.name !== from);
+
+  console.log(`[P2P-BROADCAST] Enviando de ${from} para ${peers.length} agentes...`);
+
+  let sent = 0;
+  for (const peer of peers) {
+    const payload = JSON.stringify({ from, text, sentAt: new Date().toISOString() });
+    const req = http.request({
+      hostname: peer.host,
+      port: peer.port,
+      path: '/msg',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(payload)
+      },
+      timeout: 3000
+    }, res => {
+      console.log(`  ✔ Entregue para ${peer.name} (${peer.host}:${peer.port})`);
+      sent++;
+      if (sent >= peers.length) process.exit(0);
+    });
+
+    req.on('error', err => {
+      console.warn(`  ✖ Falha ao enviar para ${peer.name} (${peer.host}:${peer.port}): ${err.message}`);
+      sent++;
+      if (sent >= peers.length) process.exit(0);
+    });
+
+    req.write(payload);
+    req.end();
+  }
+
 } else {
   console.log(`Uso:
   node tools/agent-p2p.js wait <porta> [timeoutSec]   (Aguarda mensagem e encerra ao receber)
   node tools/agent-p2p.js send <IP:PORTA> <DE> <MSG>   (Envia mensagem com retry automatico)
+  node tools/agent-p2p.js broadcast <DE> <MSG>        (Envia mensagem para todos os peers)
 `);
 }
