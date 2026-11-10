@@ -9,19 +9,20 @@ descobrir e por quê.
 
 | Item | Valor Verificado | Fonte |
 | ---- | ---------------- | ----- |
-| Versão | **GICv3** | `adb shell cat /proc/interrupts` (`GICv3 29 Level arch_timer`) |
-| Nó no Devicetree | `gic@1023a000` / `interrupt-controller@0c000000` | `/sys/firmware/devicetree/base` |
+| Versão | **GICv3** | `dumps/boot_extracted/kernel.dts` (`compatible = "arm,gic-v3"`) |
+| GICD (Distributor) | Base: `0x0c000000`, Tamanho: `0x40000` (256 KB) | `kernel.dts:397` |
+| GICR (Redistributors) | Base: `0x0c100000`, Tamanho: `0x200000` (2 MB) | `kernel.dts:397` |
 | Polarizador de IRQ | `intpol-controller@0c530620` | `/sys/firmware/devicetree/base` |
 | Tradução MediaTek | `MT_SYSIRQ` (linhas do SoC mapeadas para GIC SPIs) | `/proc/interrupts` |
 
 ## 2. Timers e Watchdog
 
-| Timer | Papel / Configuração | IRQ | Fonte |
-| ----- | -------------------- | --- | ----- |
-| ARM Arch Timer | `CNTPCT_EL0` / `CNTVCT_EL0` (PPIs) | IRQ 29, 30 (`GICv3 Level`) | `/proc/interrupts` |
-| MediaTek APXGPT | `apxgpt@10008000` (`mt-gpt`) | `MT_SYSIRQ 176 Level` | `/proc/interrupts` & DT |
-| System Timer | `sys_timer@10017000` | devicetree | `/sys/firmware/devicetree/base` |
-| Watchdog | `toprgu@10007000` (`mt_wdt`) | `MT_SYSIRQ 142 Edge` | `/proc/interrupts` & DT |
+| Timer | Papel / Configuração | IRQ | Frequência | Fonte |
+| ----- | -------------------- | --- | ---------- | ----- |
+| ARM Arch Timer | `CNTPCT_EL0` / `CNTVCT_EL0` (`arm,armv8-timer`) | PPIs (IRQ 29, 30) | **13.000.000 Hz (13 MHz)** (`0xc65d40`) | `kernel.dts:417` |
+| MediaTek APXGPT | `apxgpt@10008000` (`mt-gpt`) | `MT_SYSIRQ 176 Level` | 13 MHz / 26 MHz | `/proc/interrupts` & DT |
+| System Timer | `sys_timer@10017000` | devicetree | 13 MHz | `/sys/firmware/devicetree/base` |
+| Watchdog | `toprgu@10007000` (`mt_wdt`) | `MT_SYSIRQ 142 Edge` | SWRST `0x10007014` | `/proc/interrupts` & DT |
 
 ## 3. Interrupções de periféricos (Mapeamento Real)
 
@@ -52,7 +53,7 @@ descobrir e por quê.
 
 ## 5. Pendências
 
-- [ ] Determinar versão e bases do GIC a partir do DTB
-- [ ] Verificar se existe `mtk,sysirq` e qual o mapa de tradução
-- [ ] Confirmar `CNTFRQ_EL0` e se o firmware já o programou
-- [ ] Identificar o watchdog e como o kernel Linux o mantém alimentado
+- [x] Determinar versão e bases do GIC a partir do DTB (confirmado: GICv3, GICD `0x0c000000`, GICR `0x0c100000`)
+- [x] Verificar se existe `mtk,sysirq` e qual o mapa de tradução (confirmado: `intpol-controller@0c530620` e `MT_SYSIRQ`)
+- [x] Confirmar `CNTFRQ_EL0` e se o firmware já o programou (confirmado: 13 MHz, `0xc65d40` no DTS)
+- [x] Identificar o watchdog e como o kernel Linux o mantém alimentado (confirmado: `toprgu@10007000`, SWRST `0x10007014`)
