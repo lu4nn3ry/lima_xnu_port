@@ -17,7 +17,7 @@ alterar nada**.
 - [x] Confirmar se o Android 10 veio por OTA oficial (canal `retbr`, release-keys, bootloader `MBM-2.1-lima_32_retail`)
 - [x] Confirmar SoC real (MT6771V/WL confirmado via `fastboot getvar cpu` - Helio P70M)
 - [x] Confirmar variante de RAM/armazenamento (2GB Samsung LP4x + 32GB Samsung eMMC)
-- [ ] Confirmar resolução de tela real (720×1520 vs 720×1600 via DTB)
+- [x] Confirmar resolução de tela real (confirmado: 720×1520 @ 280 dpi via `adb shell wm size`)
 - [x] Registrar patch de segurança e slot ativo (Slot `_a` ativo de 2 slots)
 - [x] Confirmar `fastboot getvar unlocked` (`securestate: flashing_unlocked`)
 
@@ -29,13 +29,13 @@ alterar nada**.
 - [ ] Documentar o modo de emergência/download (BROM/Preloader) — apenas leitura
 
 ### 0.3 Firmware e partições
-- [ ] Obter tabela de partições (GPT) e tamanhos
+- [x] Obter tabela de partições (GPT) e mapeamento (confirmado: `research/partitions-by-name.txt`)
 - [ ] Identificar partições sensíveis e marcá-las como intocáveis
-- [ ] Verificar backups existentes e hashes
+- [x] Verificar backups existentes e hashes (confirmado: 64 partições transferidas para `dumps/`)
 - [ ] Registrar versão de firmware e anti-rollback, se houver
 
 ### 0.4 Kernel / DTB
-- [ ] Extrair DTB do `boot.img` (ou do `dtbo`) e decompilar
+- [x] Extrair DTB do `boot.img` (ou do `dtbo`) e decompilar (confirmado: `dumps/boot_extracted/kernel.dts`)
 - [ ] Inventariar `reserved-memory`, `memory`, `cpus`, `timer`, `interrupt-controller`
 - [ ] Inventariar periféricos de interesse: display, eMMC, touch, USB, PMIC
 - [ ] Salvar material bruto em `research/device-tree/`
@@ -44,7 +44,7 @@ alterar nada**.
 - [ ] Preencher `docs/03-hardware-inventory.md` com fonte para cada item
 - [ ] Preencher `docs/04-memory-map.md`
 - [ ] Preencher `docs/05-interrupts-timers.md`
-- [ ] Verificar existência de UART acessível e/ou caminho de log (pstore/ramoops)
+- [x] Verificar existência de UART acessível e/ou caminho de log (confirmado: UART `ttyS0` @ 921600 e `pstore/ramoops` com console persistente)
 
 ### 0.6 Saída da fase
 - [ ] `docs/01` a `docs/09` revisados e sem "a verificar" nos itens críticos
